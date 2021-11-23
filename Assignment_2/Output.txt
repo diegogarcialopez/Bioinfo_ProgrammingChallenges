@@ -1,7 +1,8 @@
 Assignment 2
-NEtworkss of input genes that interact with other input genes:
+Networks of input genes that interact with other input genes:
 
 -----------------------------------------------------------------------------------
+
 Network 1
 
 
@@ -230,10 +231,10 @@ GO Biological Process of the network:
 	GO:0035556 P:intracellular signal transduction
 	GO:0009768 P:photosynthesis, light harvesting in photosystem I
 	GO:0018298 P:protein-chromophore linkage
-	GO:0009416 P:response to light stimulus
 	GO:0009750 P:response to fructose
-	GO:0009765 P:photosynthesis, light harvesting
+	GO:0009416 P:response to light stimulus
 	GO:0009733 P:response to auxin
+	GO:0009765 P:photosynthesis, light harvesting
 	GO:0032875 P:regulation of DNA endoreduplication
 KEGG Pathways of the network:
 	ath00195:Photosynthesis
@@ -919,10 +920,10 @@ Interactor genes:
 GO Biological Process of the network:
 	GO:0009768 P:photosynthesis, light harvesting in photosystem I
 	GO:0018298 P:protein-chromophore linkage
-	GO:0009416 P:response to light stimulus
 	GO:0009750 P:response to fructose
-	GO:0009765 P:photosynthesis, light harvesting
+	GO:0009416 P:response to light stimulus
 	GO:0009733 P:response to auxin
+	GO:0009765 P:photosynthesis, light harvesting
 	GO:0009773 P:photosynthetic electron transport in photosystem I
 	GO:0006355 P:regulation of transcription, DNA-templated
 	GO:0140547 P:acquisition of seed longevity
@@ -1599,8 +1600,8 @@ GO Biological Process of the network:
 	GO:0005985 P:sucrose metabolic process
 	GO:0005975 P:carbohydrate metabolic process
 	GO:0019464 P:glycine decarboxylation via glycine cleavage system
-	GO:0000398 P:mRNA splicing, via spliceosome
 	GO:0006546 P:glycine catabolic process
+	GO:0000398 P:mRNA splicing, via spliceosome
 	GO:0046686 P:response to cadmium ion
 KEGG Pathways of the network:
 	ath00010:Glycolysis / Gluconeogenesis
@@ -1753,8 +1754,8 @@ GO Biological Process of the network:
 	GO:0009768 P:photosynthesis, light harvesting in photosystem I
 	GO:0018298 P:protein-chromophore linkage
 	GO:0009750 P:response to fructose
-	GO:0009765 P:photosynthesis, light harvesting
 	GO:0009733 P:response to auxin
+	GO:0009765 P:photosynthesis, light harvesting
 	GO:0032875 P:regulation of DNA endoreduplication
 	GO:0009704 P:de-etiolation
 	GO:0009638 P:phototropism
@@ -2204,10 +2205,10 @@ Interactor genes:
 GO Biological Process of the network:
 	GO:0009768 P:photosynthesis, light harvesting in photosystem I
 	GO:0018298 P:protein-chromophore linkage
-	GO:0009416 P:response to light stimulus
 	GO:0009750 P:response to fructose
-	GO:0009765 P:photosynthesis, light harvesting
+	GO:0009416 P:response to light stimulus
 	GO:0009733 P:response to auxin
+	GO:0009765 P:photosynthesis, light harvesting
 	GO:0032875 P:regulation of DNA endoreduplication
 	GO:0009773 P:photosynthetic electron transport in photosystem I
 	GO:0006355 P:regulation of transcription, DNA-templated
@@ -2242,10 +2243,10 @@ GO Biological Process of the network:
 	GO:0006355 P:regulation of transcription, DNA-templated
 	GO:0009768 P:photosynthesis, light harvesting in photosystem I
 	GO:0018298 P:protein-chromophore linkage
-	GO:0009416 P:response to light stimulus
 	GO:0009750 P:response to fructose
-	GO:0009765 P:photosynthesis, light harvesting
+	GO:0009416 P:response to light stimulus
 	GO:0009733 P:response to auxin
+	GO:0009765 P:photosynthesis, light harvesting
 	GO:0032875 P:regulation of DNA endoreduplication
 	GO:0042742 P:defense response to bacterium
 	GO:0050832 P:defense response to fungus
