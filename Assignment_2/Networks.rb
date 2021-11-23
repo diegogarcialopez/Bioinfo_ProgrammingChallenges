@@ -47,7 +47,7 @@ class InteractionNetwork                # Defining the class that content the ne
       return @@class_objects
     end
 
-  def find_go(gene1)                                                               # Function to find the "GO: Biological Process" of the genes.
+  def find_go(gene1)                                                                        # Function to find the "GO: Biological Process" of the genes.
     res = InteractionNetwork.fetch("http://togows.org/entry/ebi-uniprot/#{gene1}/dr.json"); # Link to search for interctions indicated in "http://togows.dbcls.jp/".
     if res
       data = JSON.parse(res.body)
@@ -55,7 +55,7 @@ class InteractionNetwork                # Defining the class that content the ne
       data[0]["GO"].each do |go|
         if go[1].match(/P:/)                                                                # Matching the "P", term for the Biological Process.
           go_term = go[0] + " " + go[1]
-          if not (@go_list.include?(go_term))                                                  # Do not add redundant GOs.
+          if not (@go_list.include?(go_term))                                               # Do not add redundant GOs.
             @go_list << go_term
           end
         else
@@ -68,14 +68,14 @@ class InteractionNetwork                # Defining the class that content the ne
     end
   end
   
-  def find_kegg(gene2)                                                                      # Function to find the "KEEG Pathways" of the genes.
+  def find_kegg(gene2)                                                                               # Function to find the "KEEG Pathways" of the genes.
     ros = InteractionNetwork.fetch("http://togows.org/entry/kegg-genes/ath:#{gene2}/pathways.json"); # Link to search for interctions indicated in "http://togows.dbcls.jp/".
     if ros
       data = JSON.parse(ros.body)
       if data[0]                                                                                     # Avoiding errors due to non-existent web page.
         data[0].each do |kegg|
           kegg_term = kegg[0]+":"+kegg[1]
-          if not (@kegg_list.include?(kegg_term))                                                # Do not add redundant KEEGs.
+          if not (@kegg_list.include?(kegg_term))                                                    # Do not add redundant KEEGs.
             @kegg_list <<  kegg_term
           end
         end
@@ -117,7 +117,7 @@ class InteractionNetwork                # Defining the class that content the ne
           else
             case                                                                                                             # Checking the position of the query gene in the "interaction vector".
             when agi1.to_s == some_gene.to_s 
-              if agi2 != @gene_ID        # Discarding redundant interactions
+              if agi2 != @gene_ID                                                                                            # Discarding redundant interactions
                 list_interactions(agi2)                                                                                      # Searching if the interactor is in the input list.
                 search_interactions(agi2, depth)                                                                             # Applying recursivity to search for interactions of the genes that interact with the input genes.
               end
