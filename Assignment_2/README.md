@@ -15,4 +15,6 @@ Example with 2 steps of recursivity:
 
 ruby Main.rb ArabidopsisSubNetwork_GeneList.txt Output.txt 2
 
+The Main.rb file calls the Networks.rb file, that contains the class InteractionNetwork, where the list interactions are stored, with its GOs and KEEGs. However, I also upload the file Networks_deep.rb, which outputs the same results, but also store the interactions (and the GOs and KEEGs) for all of the input genes, with other genes no matter these interactors are in the list or not. 
+
 
