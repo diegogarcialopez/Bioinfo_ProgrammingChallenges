@@ -1,41 +1,2359 @@
 Assignment 2
-Lists of input genes networks that interact with other input genes:
+NEtworkss of input genes that interact with other input genes:
 
-Network ID: AT1G07010
+-----------------------------------------------------------------------------------
+Network 1
+
+
+Network ID: AT5G54270
 
 Interactor genes:
-	AT4G17030
+	AT2G34420
+	AT3G27690
+	AT2G45170
+	AT5G04140
+	AT5G35630
+	AT4G37980
 GO Biological Process of the network:
-	GO:0019953 P:sexual reproduction
+	GO:0032875 P:regulation of DNA endoreduplication
+	GO:0009768 P:photosynthesis, light harvesting in photosystem I
+	GO:0018298 P:protein-chromophore linkage
+	GO:0009416 P:response to light stimulus
+	GO:0009765 P:photosynthesis, light harvesting
+	GO:0045893 P:positive regulation of transcription, DNA-templated
+	GO:0006355 P:regulation of transcription, DNA-templated
+	GO:0071215 P:cellular response to abscisic acid stimulus
+	GO:0009769 P:photosynthesis, light harvesting in photosystem II
+	GO:1903428 P:positive regulation of reactive oxygen species biosynthetic process
+	GO:0090333 P:regulation of stomatal closure
+	GO:0009409 P:response to cold
+	GO:0009269 P:response to desiccation
+	GO:0010218 P:response to far red light
+	GO:0009644 P:response to high light intensity
+	GO:0009645 P:response to low light intensity stimulus
+	GO:0010114 P:response to red light
+	GO:0030104 P:water homeostasis
+	GO:0006914 P:autophagy
+	GO:0006995 P:cellular response to nitrogen starvation
+	GO:0009267 P:cellular response to starvation
+	GO:0015031 P:protein transport
+	GO:0045471 P:response to ethanol
+	GO:0019676 P:ammonia assimilation cycle
+	GO:0006537 P:glutamate biosynthetic process
+	GO:0097054 P:L-glutamate biosynthetic process
+	GO:0009853 P:photorespiration
+	GO:0080114 P:positive regulation of glycine hydroxymethyltransferase activity
+	GO:0009744 P:response to sucrose
+	GO:0006541 P:glutamine metabolic process
+	GO:0007568 P:aging
+	GO:0006542 P:glutamine biosynthetic process
+	GO:0046686 P:response to cadmium ion
+	GO:0006807 P:nitrogen compound metabolic process
+	GO:0010597 P:green leaf volatile biosynthetic process
+	GO:0009809 P:lignin biosynthetic process
+	GO:0009617 P:response to bacterium
+	GO:0033512 P:L-lysine catabolic process to acetyl-CoA via saccharopine
+KEGG Pathways of the network:
+	ath00196:Photosynthesis - antenna proteins
+	ath01100:Metabolic pathways
+	ath04136:Autophagy - other
+	ath00630:Glyoxylate and dicarboxylate metabolism
+	ath00910:Nitrogen metabolism
+	ath00220:Arginine biosynthesis
+	ath00250:Alanine, aspartate and glutamate metabolism
+	ath01230:Biosynthesis of amino acids
+	ath00940:Phenylpropanoid biosynthesis
+	ath01110:Biosynthesis of secondary metabolites
+
+-----------------------------------------------------------------------------------
+
+Network 2
+
+
+Network ID: AT2G45170
+
+Interactor genes:
+	AT1G23740
+	AT2G26740
+	AT1G12900
+	AT4G21210
+	AT5G54270
+	AT5G04140
+GO Biological Process of the network:
+	GO:0009409 P:response to cold
+	GO:0046856 P:phosphatidylinositol dephosphorylation
+	GO:0009733 P:response to auxin
+	GO:0009414 P:response to water deprivation
+	GO:0006006 P:glucose metabolic process
+	GO:0019253 P:reductive pentose-phosphate cycle
+	GO:0008643 P:carbohydrate transport
+	GO:0015979 P:photosynthesis
+	GO:0009768 P:photosynthesis, light harvesting in photosystem I
+	GO:0009769 P:photosynthesis, light harvesting in photosystem II
+	GO:0018298 P:protein-chromophore linkage
+	GO:0010119 P:regulation of stomatal movement
+	GO:0009737 P:response to abscisic acid
+	GO:0009635 P:response to herbicide
+	GO:0009644 P:response to high light intensity
+	GO:0009416 P:response to light stimulus
+	GO:0006412 P:translation
+	GO:0009765 P:photosynthesis, light harvesting
+	GO:0019676 P:ammonia assimilation cycle
+	GO:0006537 P:glutamate biosynthetic process
+	GO:0097054 P:L-glutamate biosynthetic process
+	GO:0009853 P:photorespiration
+	GO:0080114 P:positive regulation of glycine hydroxymethyltransferase activity
+	GO:0009744 P:response to sucrose
+	GO:0006541 P:glutamine metabolic process
+KEGG Pathways of the network:
+	ath00710:Carbon fixation in photosynthetic organisms
+	ath01100:Metabolic pathways
+	ath01200:Carbon metabolism
+	ath00196:Photosynthesis - antenna proteins
+	ath00630:Glyoxylate and dicarboxylate metabolism
+	ath00910:Nitrogen metabolism
+
+-----------------------------------------------------------------------------------
+
+Network 3
+
+
+Network ID: AT1G80440
+
+Interactor genes:
+	AT4G39710
+GO Biological Process of the network:
+	No GO ID (nor GO Term) associated with this network
 KEGG Pathways of the network:
 	No Kegg ID (nor Kegg Pathways) associated with this network
 
 -----------------------------------------------------------------------------------
 
-Network ID: AT4G17030
+Network 4
+
+
+Network ID: AT5G04140
 
 Interactor genes:
-	AT1G07010
-	AT1G17380
+	AT2G26740
+	AT3G27690
+	AT4G17090
+	AT4G37980
+	AT2G45170
+	AT5G54270
 GO Biological Process of the network:
-	GO:0046514 P:ceramide catabolic process
-	GO:0006952 P:defense response
-	GO:0031347 P:regulation of defense response
-	GO:2000022 P:regulation of jasmonic acid mediated signaling pathway
+	GO:0009733 P:response to auxin
+	GO:0009414 P:response to water deprivation
+	GO:0045893 P:positive regulation of transcription, DNA-templated
+	GO:0006355 P:regulation of transcription, DNA-templated
+	GO:0071215 P:cellular response to abscisic acid stimulus
+	GO:0009768 P:photosynthesis, light harvesting in photosystem I
+	GO:0009769 P:photosynthesis, light harvesting in photosystem II
+	GO:1903428 P:positive regulation of reactive oxygen species biosynthetic process
+	GO:0018298 P:protein-chromophore linkage
+	GO:0090333 P:regulation of stomatal closure
+	GO:0009409 P:response to cold
+	GO:0009269 P:response to desiccation
+	GO:0010218 P:response to far red light
+	GO:0009644 P:response to high light intensity
+	GO:0009416 P:response to light stimulus
+	GO:0009645 P:response to low light intensity stimulus
+	GO:0010114 P:response to red light
+	GO:0030104 P:water homeostasis
+	GO:0009765 P:photosynthesis, light harvesting
+	GO:0000024 P:maltose biosynthetic process
+	GO:0005983 P:starch catabolic process
+	GO:0000272 P:polysaccharide catabolic process
+	GO:0010597 P:green leaf volatile biosynthetic process
+	GO:0009809 P:lignin biosynthetic process
+	GO:0009617 P:response to bacterium
+	GO:0033512 P:L-lysine catabolic process to acetyl-CoA via saccharopine
+	GO:0006914 P:autophagy
+	GO:0006995 P:cellular response to nitrogen starvation
+	GO:0009267 P:cellular response to starvation
+	GO:0015031 P:protein transport
+	GO:0045471 P:response to ethanol
+	GO:0015979 P:photosynthesis
+	GO:0010119 P:regulation of stomatal movement
+	GO:0009737 P:response to abscisic acid
+	GO:0009635 P:response to herbicide
+	GO:0006412 P:translation
+KEGG Pathways of the network:
+	ath00196:Photosynthesis - antenna proteins
+	ath01100:Metabolic pathways
+	ath00500:Starch and sucrose metabolism
+	ath01110:Biosynthesis of secondary metabolites
+	ath00940:Phenylpropanoid biosynthesis
+	ath04136:Autophagy - other
+
+-----------------------------------------------------------------------------------
+
+Network 5
+
+
+Network ID: AT1G15820
+
+Interactor genes:
+	AT5G01530
+	AT2G34420
+	AT1G29920
+GO Biological Process of the network:
+	GO:0009768 P:photosynthesis, light harvesting in photosystem I
+	GO:0018298 P:protein-chromophore linkage
+	GO:0009416 P:response to light stimulus
+	GO:0009765 P:photosynthesis, light harvesting
+	GO:0032875 P:regulation of DNA endoreduplication
+	GO:0009750 P:response to fructose
+KEGG Pathways of the network:
+	ath00196:Photosynthesis - antenna proteins
+	ath01100:Metabolic pathways
+
+-----------------------------------------------------------------------------------
+
+Network 6
+
+
+Network ID: AT1G03130
+
+Interactor genes:
+	AT3G16250
+	AT2G17880
+	AT4G02770
+	AT1G29910
+	AT2G34420
+	AT1G29920
+GO Biological Process of the network:
+	GO:0009773 P:photosynthetic electron transport in photosystem I
+	GO:0006355 P:regulation of transcription, DNA-templated
+	GO:0140547 P:acquisition of seed longevity
+	GO:0015979 P:photosynthesis
+	GO:0035556 P:intracellular signal transduction
+	GO:0009768 P:photosynthesis, light harvesting in photosystem I
+	GO:0018298 P:protein-chromophore linkage
+	GO:0009416 P:response to light stimulus
+	GO:0009750 P:response to fructose
+	GO:0009765 P:photosynthesis, light harvesting
+	GO:0009733 P:response to auxin
+	GO:0032875 P:regulation of DNA endoreduplication
+KEGG Pathways of the network:
+	ath00195:Photosynthesis
+	ath01100:Metabolic pathways
+	ath00196:Photosynthesis - antenna proteins
+
+-----------------------------------------------------------------------------------
+
+Network 7
+
+
+Network ID: AT4G17090
+
+Interactor genes:
+	AT4G37800
+	AT2G26740
+	AT5G65010
+	AT1G12900
+	AT5G04140
+	AT3G47340
+	AT5G48300
+GO Biological Process of the network:
+	GO:0042546 P:cell wall biogenesis
+	GO:0071555 P:cell wall organization
+	GO:0010411 P:xyloglucan metabolic process
+	GO:0006355 P:regulation of transcription, DNA-templated
+	GO:0009733 P:response to auxin
+	GO:0009414 P:response to water deprivation
+	GO:0097164 P:ammonium ion metabolic process
+	GO:0006529 P:asparagine biosynthetic process
+	GO:0006541 P:glutamine metabolic process
+	GO:0042538 P:hyperosmotic salinity response
+	GO:0070981 P:L-asparagine biosynthetic process
+	GO:0006006 P:glucose metabolic process
+	GO:0019253 P:reductive pentose-phosphate cycle
+	GO:0008643 P:carbohydrate transport
+	GO:0019676 P:ammonia assimilation cycle
+	GO:0006537 P:glutamate biosynthetic process
+	GO:0097054 P:L-glutamate biosynthetic process
+	GO:0009853 P:photorespiration
+	GO:0080114 P:positive regulation of glycine hydroxymethyltransferase activity
+	GO:0009416 P:response to light stimulus
+	GO:0009744 P:response to sucrose
+	GO:0009063 P:cellular amino acid catabolic process
+	GO:0043617 P:cellular response to sucrose starvation
+	GO:0009646 P:response to absence of light
+	GO:0009750 P:response to fructose
+	GO:0009749 P:response to glucose
+	GO:0006096 P:glycolytic process
+	GO:0005978 P:glycogen biosynthetic process
+	GO:0048573 P:photoperiodism, flowering
+	GO:0019252 P:starch biosynthetic process
+	GO:0006457 P:protein folding
+KEGG Pathways of the network:
+	ath00250:Alanine, aspartate and glutamate metabolism
+	ath01100:Metabolic pathways
+	ath01110:Biosynthesis of secondary metabolites
+	ath01230:Biosynthesis of amino acids
+	ath00710:Carbon fixation in photosynthetic organisms
+	ath01200:Carbon metabolism
+	ath00630:Glyoxylate and dicarboxylate metabolism
+	ath00910:Nitrogen metabolism
+	ath00500:Starch and sucrose metabolism
+	ath00520:Amino sugar and nucleotide sugar metabolism
+	ath01250:Biosynthesis of nucleotide sugars
+
+-----------------------------------------------------------------------------------
+
+Network 8
+
+
+Network ID: AT1G23740
+
+Interactor genes:
+	AT2G26080
+	AT4G12830
+	AT2G45170
+	AT3G45780
+GO Biological Process of the network:
+	GO:0019464 P:glycine decarboxylation via glycine cleavage system
+	GO:0006546 P:glycine catabolic process
+	GO:0000398 P:mRNA splicing, via spliceosome
+	GO:0006914 P:autophagy
+	GO:0006995 P:cellular response to nitrogen starvation
+	GO:0009267 P:cellular response to starvation
+	GO:0015031 P:protein transport
+	GO:0045471 P:response to ethanol
+	GO:0009904 P:chloroplast accumulation movement
+	GO:0009903 P:chloroplast avoidance movement
+	GO:0007623 P:circadian rhythm
+	GO:0010362 P:negative regulation of anion channel activity by blue light
+	GO:0009638 P:phototropism
+	GO:0046777 P:protein autophosphorylation
+	GO:0006468 P:protein phosphorylation
+	GO:0018298 P:protein-chromophore linkage
+	GO:0010155 P:regulation of proton transport
+	GO:0010119 P:regulation of stomatal movement
+	GO:0009637 P:response to blue light
+	GO:0050896 P:response to stimulus
+KEGG Pathways of the network:
+	ath00260:Glycine, serine and threonine metabolism
+	ath00630:Glyoxylate and dicarboxylate metabolism
+	ath01100:Metabolic pathways
+	ath01110:Biosynthesis of secondary metabolites
+	ath01200:Carbon metabolism
+	ath04136:Autophagy - other
+
+-----------------------------------------------------------------------------------
+
+Network 9
+
+
+Network ID: AT2G46340
+
+Interactor genes:
+	AT5G15850
+GO Biological Process of the network:
+	GO:0009909 P:regulation of flower development
+	GO:0000398 P:mRNA splicing, via spliceosome
+KEGG Pathways of the network:
+	No Kegg ID (nor Kegg Pathways) associated with this network
+
+-----------------------------------------------------------------------------------
+
+Network 10
+
+
+Network ID: AT4G12830
+
+Interactor genes:
+	AT1G23740
+GO Biological Process of the network:
+	GO:0009409 P:response to cold
+	GO:0046856 P:phosphatidylinositol dephosphorylation
+KEGG Pathways of the network:
+	No Kegg ID (nor Kegg Pathways) associated with this network
+
+-----------------------------------------------------------------------------------
+
+Network 11
+
+
+Network ID: AT2G21330
+
+Interactor genes:
+	AT2G26740
+	AT4G37800
+GO Biological Process of the network:
+	GO:0009733 P:response to auxin
+	GO:0009414 P:response to water deprivation
+	GO:0042546 P:cell wall biogenesis
+	GO:0071555 P:cell wall organization
+	GO:0010411 P:xyloglucan metabolic process
+	GO:0006355 P:regulation of transcription, DNA-templated
+KEGG Pathways of the network:
+	No Kegg ID (nor Kegg Pathways) associated with this network
+
+-----------------------------------------------------------------------------------
+
+Network 12
+
+
+Network ID: AT4G22890
+
+Interactor genes:
+	AT4G02770
+	AT1G20020
+	AT5G38990
+	AT5G43750
+	AT1G69870
+	AT3G61260
+	AT3G50820
+	AT3G01500
+	AT3G55800
+	AT5G14740
+	AT3G62410
+	AT2G39730
+	AT5G35630
+	AT3G28220
+GO Biological Process of the network:
+	GO:0140547 P:acquisition of seed longevity
+	GO:0015979 P:photosynthesis
+	GO:0035556 P:intracellular signal transduction
+	GO:0042742 P:defense response to bacterium
+	GO:0050832 P:defense response to fungus
+	GO:0006260 P:DNA replication
+	GO:0046777 P:protein autophosphorylation
+	GO:0010038 P:response to metal ion
+	GO:0006979 P:response to oxidative stress
+	GO:0042128 P:nitrate assimilation
+	GO:0015706 P:nitrate transport
+	GO:0006355 P:regulation of transcription, DNA-templated
+	GO:0051607 P:defense response to virus
+	GO:0051665 P:membrane raft localization
+	GO:0009751 P:response to salicylic acid
+	GO:0010205 P:photoinhibition
+	GO:0019684 P:photosynthesis, light reaction
+	GO:0010207 P:photosystem II assembly
+	GO:0042549 P:photosystem II stabilization
+	GO:0035304 P:regulation of protein dephosphorylation
+	GO:0015976 P:carbon utilization
+	GO:2000122 P:negative regulation of stomatal complex development
+	GO:0010119 P:regulation of stomatal movement
+	GO:0010037 P:response to carbon dioxide
+	GO:0009409 P:response to cold
+	GO:0016051 P:carbohydrate biosynthetic process
+	GO:0030388 P:fructose 1,6-bisphosphate metabolic process
+	GO:0006002 P:fructose 6-phosphate metabolic process
+	GO:0006000 P:fructose metabolic process
+	GO:0006094 P:gluconeogenesis
+	GO:0019253 P:reductive pentose-phosphate cycle
+	GO:0019252 P:starch biosynthetic process
+	GO:0005986 P:sucrose biosynthetic process
+	GO:0005975 P:carbohydrate metabolic process
+	GO:0006865 P:amino acid transport
+	GO:0071454 P:cellular response to anoxia
+	GO:0070417 P:cellular response to cold
+	GO:0034605 P:cellular response to heat
+	GO:0080153 P:negative regulation of reductive pentose-phosphate cycle
+	GO:0018316 P:peptide cross-linking via L-cystine
+	GO:0065003 P:protein-containing complex assembly
+	GO:0009416 P:response to light stimulus
+	GO:0009744 P:response to sucrose
+	GO:0010150 P:leaf senescence
 	GO:0009753 P:response to jasmonic acid
-	GO:0009611 P:response to wounding
+	GO:0007568 P:aging
+	GO:0019676 P:ammonia assimilation cycle
+	GO:0006542 P:glutamine biosynthetic process
+	GO:0046686 P:response to cadmium ion
+	GO:0006807 P:nitrogen compound metabolic process
 KEGG Pathways of the network:
-	ath04075:Plant hormone signal transduction
+	ath00195:Photosynthesis
+	ath01100:Metabolic pathways
+	ath00910:Nitrogen metabolism
+	ath00710:Carbon fixation in photosynthetic organisms
+	ath01200:Carbon metabolism
+	ath00220:Arginine biosynthesis
+	ath00250:Alanine, aspartate and glutamate metabolism
+	ath00630:Glyoxylate and dicarboxylate metabolism
+	ath01230:Biosynthesis of amino acids
 
 -----------------------------------------------------------------------------------
 
-Network ID: AT1G17380
+Network 13
+
+
+Network ID: AT1G37130
 
 Interactor genes:
-	AT4G17030
+	AT2G18700
+	AT3G28220
 GO Biological Process of the network:
-	GO:0019953 P:sexual reproduction
+	GO:0016311 P:dephosphorylation
+	GO:0005992 P:trehalose biosynthetic process
+KEGG Pathways of the network:
+	ath00500:Starch and sucrose metabolism
+	ath01100:Metabolic pathways
+	ath01110:Biosynthesis of secondary metabolites
+
+-----------------------------------------------------------------------------------
+
+Network 14
+
+
+Network ID: AT5G65010
+
+Interactor genes:
+	AT3G47340
+	AT4G17090
+GO Biological Process of the network:
+	GO:0006529 P:asparagine biosynthetic process
+	GO:0009063 P:cellular amino acid catabolic process
+	GO:0043617 P:cellular response to sucrose starvation
+	GO:0006541 P:glutamine metabolic process
+	GO:0070981 P:L-asparagine biosynthetic process
+	GO:0009646 P:response to absence of light
+	GO:0009750 P:response to fructose
+	GO:0009749 P:response to glucose
+	GO:0009744 P:response to sucrose
+	GO:0006096 P:glycolytic process
+	GO:0000024 P:maltose biosynthetic process
+	GO:0009409 P:response to cold
+	GO:0005983 P:starch catabolic process
+	GO:0000272 P:polysaccharide catabolic process
+KEGG Pathways of the network:
+	ath00250:Alanine, aspartate and glutamate metabolism
+	ath01100:Metabolic pathways
+	ath01110:Biosynthesis of secondary metabolites
+	ath01230:Biosynthesis of amino acids
+	ath00500:Starch and sucrose metabolism
+
+-----------------------------------------------------------------------------------
+
+Network 15
+
+
+Network ID: AT3G01500
+
+Interactor genes:
+	AT3G50820
+	AT3G55800
+	AT5G14740
+	AT3G62410
+	AT2G39730
+	AT5G35630
+	AT4G22890
+	AT3G28220
+GO Biological Process of the network:
+	GO:0010205 P:photoinhibition
+	GO:0019684 P:photosynthesis, light reaction
+	GO:0010207 P:photosystem II assembly
+	GO:0042549 P:photosystem II stabilization
+	GO:0035304 P:regulation of protein dephosphorylation
+	GO:0016051 P:carbohydrate biosynthetic process
+	GO:0042742 P:defense response to bacterium
+	GO:0030388 P:fructose 1,6-bisphosphate metabolic process
+	GO:0006002 P:fructose 6-phosphate metabolic process
+	GO:0006000 P:fructose metabolic process
+	GO:0006094 P:gluconeogenesis
+	GO:0019253 P:reductive pentose-phosphate cycle
+	GO:0019252 P:starch biosynthetic process
+	GO:0005986 P:sucrose biosynthetic process
+	GO:0005975 P:carbohydrate metabolic process
+	GO:0015976 P:carbon utilization
+	GO:0006865 P:amino acid transport
+	GO:0071454 P:cellular response to anoxia
+	GO:0070417 P:cellular response to cold
+	GO:0034605 P:cellular response to heat
+	GO:0080153 P:negative regulation of reductive pentose-phosphate cycle
+	GO:0018316 P:peptide cross-linking via L-cystine
+	GO:0065003 P:protein-containing complex assembly
+	GO:0009416 P:response to light stimulus
+	GO:0009744 P:response to sucrose
+	GO:0010150 P:leaf senescence
+	GO:0009409 P:response to cold
+	GO:0009753 P:response to jasmonic acid
+	GO:0007568 P:aging
+	GO:0019676 P:ammonia assimilation cycle
+	GO:0006542 P:glutamine biosynthetic process
+	GO:0046686 P:response to cadmium ion
+	GO:0006807 P:nitrogen compound metabolic process
+	GO:0009773 P:photosynthetic electron transport in photosystem I
+KEGG Pathways of the network:
+	ath00195:Photosynthesis
+	ath01100:Metabolic pathways
+	ath00710:Carbon fixation in photosynthetic organisms
+	ath01200:Carbon metabolism
+	ath00910:Nitrogen metabolism
+	ath00220:Arginine biosynthesis
+	ath00250:Alanine, aspartate and glutamate metabolism
+	ath00630:Glyoxylate and dicarboxylate metabolism
+	ath01230:Biosynthesis of amino acids
+
+-----------------------------------------------------------------------------------
+
+Network 16
+
+
+Network ID: AT4G33010
+
+Interactor genes:
+	AT3G54050
+	AT1G68570
+	AT2G26080
+GO Biological Process of the network:
+	GO:0030388 P:fructose 1,6-bisphosphate metabolic process
+	GO:0006002 P:fructose 6-phosphate metabolic process
+	GO:0006000 P:fructose metabolic process
+	GO:0006094 P:gluconeogenesis
+	GO:0015979 P:photosynthesis
+	GO:0009773 P:photosynthetic electron transport in photosystem I
+	GO:0019253 P:reductive pentose-phosphate cycle
+	GO:0009409 P:response to cold
+	GO:0005986 P:sucrose biosynthetic process
+	GO:0005985 P:sucrose metabolic process
+	GO:0005975 P:carbohydrate metabolic process
+	GO:0010336 P:gibberellic acid homeostasis
+	GO:0042128 P:nitrate assimilation
+	GO:0006857 P:oligopeptide transport
+	GO:0019464 P:glycine decarboxylation via glycine cleavage system
+	GO:0006546 P:glycine catabolic process
+	GO:0000398 P:mRNA splicing, via spliceosome
+KEGG Pathways of the network:
+	ath00010:Glycolysis / Gluconeogenesis
+	ath00030:Pentose phosphate pathway
+	ath00051:Fructose and mannose metabolism
+	ath00710:Carbon fixation in photosynthetic organisms
+	ath01100:Metabolic pathways
+	ath01110:Biosynthesis of secondary metabolites
+	ath01200:Carbon metabolism
+	ath00260:Glycine, serine and threonine metabolism
+	ath00630:Glyoxylate and dicarboxylate metabolism
+
+-----------------------------------------------------------------------------------
+
+Network 17
+
+
+Network ID: AT2G17880
+
+Interactor genes:
+	AT4G02770
+	AT1G03130
+	AT3G16250
+GO Biological Process of the network:
+	GO:0140547 P:acquisition of seed longevity
+	GO:0015979 P:photosynthesis
+	GO:0035556 P:intracellular signal transduction
+	GO:0009773 P:photosynthetic electron transport in photosystem I
+	GO:0006355 P:regulation of transcription, DNA-templated
+KEGG Pathways of the network:
+	ath00195:Photosynthesis
+	ath01100:Metabolic pathways
+
+-----------------------------------------------------------------------------------
+
+Network 18
+
+
+Network ID: AT3G49160
+
+Interactor genes:
+	AT3G28220
+GO Biological Process of the network:
+	No GO ID (nor GO Term) associated with this network
 KEGG Pathways of the network:
 	No Kegg ID (nor Kegg Pathways) associated with this network
+
+-----------------------------------------------------------------------------------
+
+Network 19
+
+
+Network ID: AT4G21210
+
+Interactor genes:
+	AT2G45170
+	AT4G37800
+	AT2G26740
+GO Biological Process of the network:
+	GO:0006914 P:autophagy
+	GO:0006995 P:cellular response to nitrogen starvation
+	GO:0009267 P:cellular response to starvation
+	GO:0015031 P:protein transport
+	GO:0045471 P:response to ethanol
+	GO:0042546 P:cell wall biogenesis
+	GO:0071555 P:cell wall organization
+	GO:0010411 P:xyloglucan metabolic process
+	GO:0006355 P:regulation of transcription, DNA-templated
+	GO:0009733 P:response to auxin
+	GO:0009414 P:response to water deprivation
+KEGG Pathways of the network:
+	ath04136:Autophagy - other
+
+-----------------------------------------------------------------------------------
+
+Network 20
+
+
+Network ID: AT5G14740
+
+Interactor genes:
+	AT3G50820
+	AT3G01500
+	AT3G55800
+	AT3G62410
+	AT2G39730
+	AT5G35630
+	AT4G22890
+	AT2G18700
+GO Biological Process of the network:
+	GO:0010205 P:photoinhibition
+	GO:0019684 P:photosynthesis, light reaction
+	GO:0010207 P:photosystem II assembly
+	GO:0042549 P:photosystem II stabilization
+	GO:0035304 P:regulation of protein dephosphorylation
+	GO:0015976 P:carbon utilization
+	GO:0042742 P:defense response to bacterium
+	GO:0050832 P:defense response to fungus
+	GO:2000122 P:negative regulation of stomatal complex development
+	GO:0015979 P:photosynthesis
+	GO:0010119 P:regulation of stomatal movement
+	GO:0010037 P:response to carbon dioxide
+	GO:0009409 P:response to cold
+	GO:0016051 P:carbohydrate biosynthetic process
+	GO:0030388 P:fructose 1,6-bisphosphate metabolic process
+	GO:0006002 P:fructose 6-phosphate metabolic process
+	GO:0006000 P:fructose metabolic process
+	GO:0006094 P:gluconeogenesis
+	GO:0019253 P:reductive pentose-phosphate cycle
+	GO:0019252 P:starch biosynthetic process
+	GO:0005986 P:sucrose biosynthetic process
+	GO:0005975 P:carbohydrate metabolic process
+	GO:0071454 P:cellular response to anoxia
+	GO:0070417 P:cellular response to cold
+	GO:0034605 P:cellular response to heat
+	GO:0080153 P:negative regulation of reductive pentose-phosphate cycle
+	GO:0018316 P:peptide cross-linking via L-cystine
+	GO:0065003 P:protein-containing complex assembly
+	GO:0009416 P:response to light stimulus
+	GO:0009744 P:response to sucrose
+	GO:0010150 P:leaf senescence
+	GO:0009753 P:response to jasmonic acid
+	GO:0007568 P:aging
+	GO:0019676 P:ammonia assimilation cycle
+	GO:0006542 P:glutamine biosynthetic process
+	GO:0046686 P:response to cadmium ion
+	GO:0006807 P:nitrogen compound metabolic process
+	GO:0009773 P:photosynthetic electron transport in photosystem I
+	GO:0016311 P:dephosphorylation
+	GO:0005992 P:trehalose biosynthetic process
+KEGG Pathways of the network:
+	ath00195:Photosynthesis
+	ath01100:Metabolic pathways
+	ath00910:Nitrogen metabolism
+	ath00710:Carbon fixation in photosynthetic organisms
+	ath01200:Carbon metabolism
+	ath00220:Arginine biosynthesis
+	ath00250:Alanine, aspartate and glutamate metabolism
+	ath00630:Glyoxylate and dicarboxylate metabolism
+	ath01230:Biosynthesis of amino acids
+	ath00500:Starch and sucrose metabolism
+	ath01110:Biosynthesis of secondary metabolites
+
+-----------------------------------------------------------------------------------
+
+Network 21
+
+
+Network ID: AT4G37980
+
+Interactor genes:
+	AT1G61520
+	AT5G04140
+	AT2G34420
+	AT3G27690
+	AT5G54270
+GO Biological Process of the network:
+	GO:0009768 P:photosynthesis, light harvesting in photosystem I
+	GO:0018298 P:protein-chromophore linkage
+	GO:0009409 P:response to cold
+	GO:0009644 P:response to high light intensity
+	GO:0009416 P:response to light stimulus
+	GO:0009645 P:response to low light intensity stimulus
+	GO:0009765 P:photosynthesis, light harvesting
+	GO:0019676 P:ammonia assimilation cycle
+	GO:0006537 P:glutamate biosynthetic process
+	GO:0097054 P:L-glutamate biosynthetic process
+	GO:0009853 P:photorespiration
+	GO:0080114 P:positive regulation of glycine hydroxymethyltransferase activity
+	GO:0009744 P:response to sucrose
+	GO:0006541 P:glutamine metabolic process
+	GO:0032875 P:regulation of DNA endoreduplication
+	GO:0045893 P:positive regulation of transcription, DNA-templated
+	GO:0006355 P:regulation of transcription, DNA-templated
+	GO:0071215 P:cellular response to abscisic acid stimulus
+	GO:0009769 P:photosynthesis, light harvesting in photosystem II
+	GO:1903428 P:positive regulation of reactive oxygen species biosynthetic process
+	GO:0090333 P:regulation of stomatal closure
+	GO:0009269 P:response to desiccation
+	GO:0010218 P:response to far red light
+	GO:0010114 P:response to red light
+	GO:0030104 P:water homeostasis
+	GO:0015979 P:photosynthesis
+	GO:0010119 P:regulation of stomatal movement
+	GO:0009737 P:response to abscisic acid
+	GO:0009635 P:response to herbicide
+	GO:0006412 P:translation
+KEGG Pathways of the network:
+	ath00196:Photosynthesis - antenna proteins
+	ath01100:Metabolic pathways
+	ath00630:Glyoxylate and dicarboxylate metabolism
+	ath00910:Nitrogen metabolism
+
+-----------------------------------------------------------------------------------
+
+Network 22
+
+
+Network ID: AT2G39730
+
+Interactor genes:
+	AT3G50820
+	AT3G01500
+	AT3G55800
+	AT5G14740
+	AT3G62410
+	AT5G35630
+	AT4G22890
+	AT2G18700
+GO Biological Process of the network:
+	GO:0010205 P:photoinhibition
+	GO:0019684 P:photosynthesis, light reaction
+	GO:0010207 P:photosystem II assembly
+	GO:0042549 P:photosystem II stabilization
+	GO:0035304 P:regulation of protein dephosphorylation
+	GO:0015976 P:carbon utilization
+	GO:0042742 P:defense response to bacterium
+	GO:0050832 P:defense response to fungus
+	GO:2000122 P:negative regulation of stomatal complex development
+	GO:0015979 P:photosynthesis
+	GO:0010119 P:regulation of stomatal movement
+	GO:0010037 P:response to carbon dioxide
+	GO:0009409 P:response to cold
+	GO:0016051 P:carbohydrate biosynthetic process
+	GO:0030388 P:fructose 1,6-bisphosphate metabolic process
+	GO:0006002 P:fructose 6-phosphate metabolic process
+	GO:0006000 P:fructose metabolic process
+	GO:0006094 P:gluconeogenesis
+	GO:0019253 P:reductive pentose-phosphate cycle
+	GO:0019252 P:starch biosynthetic process
+	GO:0005986 P:sucrose biosynthetic process
+	GO:0005975 P:carbohydrate metabolic process
+	GO:0006865 P:amino acid transport
+	GO:0071454 P:cellular response to anoxia
+	GO:0070417 P:cellular response to cold
+	GO:0034605 P:cellular response to heat
+	GO:0080153 P:negative regulation of reductive pentose-phosphate cycle
+	GO:0018316 P:peptide cross-linking via L-cystine
+	GO:0065003 P:protein-containing complex assembly
+	GO:0009416 P:response to light stimulus
+	GO:0009744 P:response to sucrose
+	GO:0007568 P:aging
+	GO:0019676 P:ammonia assimilation cycle
+	GO:0006542 P:glutamine biosynthetic process
+	GO:0046686 P:response to cadmium ion
+	GO:0006807 P:nitrogen compound metabolic process
+	GO:0009773 P:photosynthetic electron transport in photosystem I
+	GO:0016311 P:dephosphorylation
+	GO:0005992 P:trehalose biosynthetic process
+KEGG Pathways of the network:
+	ath00195:Photosynthesis
+	ath01100:Metabolic pathways
+	ath00910:Nitrogen metabolism
+	ath00710:Carbon fixation in photosynthetic organisms
+	ath01200:Carbon metabolism
+	ath00220:Arginine biosynthesis
+	ath00250:Alanine, aspartate and glutamate metabolism
+	ath00630:Glyoxylate and dicarboxylate metabolism
+	ath01230:Biosynthesis of amino acids
+	ath00500:Starch and sucrose metabolism
+	ath01110:Biosynthesis of secondary metabolites
+
+-----------------------------------------------------------------------------------
+
+Network 23
+
+
+Network ID: AT1G20020
+
+Interactor genes:
+	AT4G22890
+	AT4G02770
+GO Biological Process of the network:
+	GO:0009773 P:photosynthetic electron transport in photosystem I
+	GO:0140547 P:acquisition of seed longevity
+	GO:0015979 P:photosynthesis
+	GO:0035556 P:intracellular signal transduction
+KEGG Pathways of the network:
+	ath00195:Photosynthesis
+	ath01100:Metabolic pathways
+
+-----------------------------------------------------------------------------------
+
+Network 24
+
+
+Network ID: AT2G34420
+
+Interactor genes:
+	AT1G29910
+	AT3G16250
+	AT1G29920
+	AT4G02770
+	AT1G03130
+	AT5G01530
+	AT1G15820
+	AT5G54270
+	AT3G27690
+	AT3G61260
+	AT4G37980
+	AT5G35630
+GO Biological Process of the network:
+	GO:0009768 P:photosynthesis, light harvesting in photosystem I
+	GO:0018298 P:protein-chromophore linkage
+	GO:0009416 P:response to light stimulus
+	GO:0009750 P:response to fructose
+	GO:0009765 P:photosynthesis, light harvesting
+	GO:0009733 P:response to auxin
+	GO:0009773 P:photosynthetic electron transport in photosystem I
+	GO:0006355 P:regulation of transcription, DNA-templated
+	GO:0140547 P:acquisition of seed longevity
+	GO:0015979 P:photosynthesis
+	GO:0035556 P:intracellular signal transduction
+	GO:0010196 P:nonphotochemical quenching
+	GO:0009769 P:photosynthesis, light harvesting in photosystem II
+	GO:0010119 P:regulation of stomatal movement
+	GO:0009737 P:response to abscisic acid
+	GO:0009635 P:response to herbicide
+	GO:0009644 P:response to high light intensity
+	GO:0006412 P:translation
+	GO:0045893 P:positive regulation of transcription, DNA-templated
+	GO:0071215 P:cellular response to abscisic acid stimulus
+	GO:1903428 P:positive regulation of reactive oxygen species biosynthetic process
+	GO:0090333 P:regulation of stomatal closure
+	GO:0009409 P:response to cold
+	GO:0009269 P:response to desiccation
+	GO:0010218 P:response to far red light
+	GO:0009645 P:response to low light intensity stimulus
+	GO:0010114 P:response to red light
+	GO:0030104 P:water homeostasis
+	GO:0051607 P:defense response to virus
+	GO:0051665 P:membrane raft localization
+	GO:0009751 P:response to salicylic acid
+	GO:0010597 P:green leaf volatile biosynthetic process
+	GO:0009809 P:lignin biosynthetic process
+	GO:0009617 P:response to bacterium
+	GO:0033512 P:L-lysine catabolic process to acetyl-CoA via saccharopine
+	GO:0007568 P:aging
+	GO:0019676 P:ammonia assimilation cycle
+	GO:0006542 P:glutamine biosynthetic process
+	GO:0046686 P:response to cadmium ion
+	GO:0006807 P:nitrogen compound metabolic process
+KEGG Pathways of the network:
+	ath00196:Photosynthesis - antenna proteins
+	ath01100:Metabolic pathways
+	ath00195:Photosynthesis
+	ath00940:Phenylpropanoid biosynthesis
+	ath01110:Biosynthesis of secondary metabolites
+	ath00220:Arginine biosynthesis
+	ath00250:Alanine, aspartate and glutamate metabolism
+	ath00630:Glyoxylate and dicarboxylate metabolism
+	ath00910:Nitrogen metabolism
+	ath01230:Biosynthesis of amino acids
+
+-----------------------------------------------------------------------------------
+
+Network 25
+
+
+Network ID: AT4G37800
+
+Interactor genes:
+	AT4G17090
+	AT4G21210
+	AT2G26740
+	AT2G21330
+	AT3G47340
+GO Biological Process of the network:
+	GO:0000024 P:maltose biosynthetic process
+	GO:0009409 P:response to cold
+	GO:0005983 P:starch catabolic process
+	GO:0000272 P:polysaccharide catabolic process
+	GO:0009733 P:response to auxin
+	GO:0009414 P:response to water deprivation
+	GO:0030388 P:fructose 1,6-bisphosphate metabolic process
+	GO:0006094 P:gluconeogenesis
+	GO:0006096 P:glycolytic process
+	GO:0046686 P:response to cadmium ion
+	GO:0071555 P:cell wall organization
+	GO:0030244 P:cellulose biosynthetic process
+	GO:0006529 P:asparagine biosynthetic process
+	GO:0009063 P:cellular amino acid catabolic process
+	GO:0043617 P:cellular response to sucrose starvation
+	GO:0006541 P:glutamine metabolic process
+	GO:0070981 P:L-asparagine biosynthetic process
+	GO:0009646 P:response to absence of light
+	GO:0009750 P:response to fructose
+	GO:0009749 P:response to glucose
+	GO:0009744 P:response to sucrose
+KEGG Pathways of the network:
+	ath00500:Starch and sucrose metabolism
+	ath01100:Metabolic pathways
+	ath01110:Biosynthesis of secondary metabolites
+	ath00010:Glycolysis / Gluconeogenesis
+	ath00030:Pentose phosphate pathway
+	ath00051:Fructose and mannose metabolism
+	ath00710:Carbon fixation in photosynthetic organisms
+	ath01200:Carbon metabolism
+	ath01230:Biosynthesis of amino acids
+	ath00250:Alanine, aspartate and glutamate metabolism
+
+-----------------------------------------------------------------------------------
+
+Network 26
+
+
+Network ID: AT1G12900
+
+Interactor genes:
+	AT3G45780
+	AT2G45170
+	AT1G61520
+	AT4G17090
+GO Biological Process of the network:
+	GO:0009904 P:chloroplast accumulation movement
+	GO:0009903 P:chloroplast avoidance movement
+	GO:0007623 P:circadian rhythm
+	GO:0010362 P:negative regulation of anion channel activity by blue light
+	GO:0009638 P:phototropism
+	GO:0046777 P:protein autophosphorylation
+	GO:0006468 P:protein phosphorylation
+	GO:0018298 P:protein-chromophore linkage
+	GO:0010155 P:regulation of proton transport
+	GO:0010119 P:regulation of stomatal movement
+	GO:0009637 P:response to blue light
+	GO:0050896 P:response to stimulus
+	GO:0006914 P:autophagy
+	GO:0006995 P:cellular response to nitrogen starvation
+	GO:0009267 P:cellular response to starvation
+	GO:0015031 P:protein transport
+	GO:0045471 P:response to ethanol
+	GO:0009768 P:photosynthesis, light harvesting in photosystem I
+	GO:0009409 P:response to cold
+	GO:0009644 P:response to high light intensity
+	GO:0009416 P:response to light stimulus
+	GO:0009645 P:response to low light intensity stimulus
+	GO:0009765 P:photosynthesis, light harvesting
+	GO:0000024 P:maltose biosynthetic process
+	GO:0005983 P:starch catabolic process
+	GO:0000272 P:polysaccharide catabolic process
+KEGG Pathways of the network:
+	ath04136:Autophagy - other
+	ath00196:Photosynthesis - antenna proteins
+	ath01100:Metabolic pathways
+	ath00500:Starch and sucrose metabolism
+	ath01110:Biosynthesis of secondary metabolites
+
+-----------------------------------------------------------------------------------
+
+Network 27
+
+
+Network ID: AT3G55800
+
+Interactor genes:
+	AT3G50820
+	AT3G01500
+	AT5G14740
+	AT3G62410
+	AT2G39730
+	AT5G35630
+	AT4G22890
+GO Biological Process of the network:
+	GO:0010205 P:photoinhibition
+	GO:0019684 P:photosynthesis, light reaction
+	GO:0010207 P:photosystem II assembly
+	GO:0042549 P:photosystem II stabilization
+	GO:0035304 P:regulation of protein dephosphorylation
+	GO:0015976 P:carbon utilization
+	GO:0042742 P:defense response to bacterium
+	GO:0050832 P:defense response to fungus
+	GO:2000122 P:negative regulation of stomatal complex development
+	GO:0015979 P:photosynthesis
+	GO:0010119 P:regulation of stomatal movement
+	GO:0010037 P:response to carbon dioxide
+	GO:0009409 P:response to cold
+	GO:0006865 P:amino acid transport
+	GO:0071454 P:cellular response to anoxia
+	GO:0070417 P:cellular response to cold
+	GO:0034605 P:cellular response to heat
+	GO:0080153 P:negative regulation of reductive pentose-phosphate cycle
+	GO:0018316 P:peptide cross-linking via L-cystine
+	GO:0065003 P:protein-containing complex assembly
+	GO:0019253 P:reductive pentose-phosphate cycle
+	GO:0009416 P:response to light stimulus
+	GO:0009744 P:response to sucrose
+	GO:0010150 P:leaf senescence
+	GO:0009753 P:response to jasmonic acid
+	GO:0007568 P:aging
+	GO:0019676 P:ammonia assimilation cycle
+	GO:0006542 P:glutamine biosynthetic process
+	GO:0046686 P:response to cadmium ion
+	GO:0006807 P:nitrogen compound metabolic process
+	GO:0009773 P:photosynthetic electron transport in photosystem I
+KEGG Pathways of the network:
+	ath00195:Photosynthesis
+	ath01100:Metabolic pathways
+	ath00910:Nitrogen metabolism
+	ath00220:Arginine biosynthesis
+	ath00250:Alanine, aspartate and glutamate metabolism
+	ath00630:Glyoxylate and dicarboxylate metabolism
+	ath01230:Biosynthesis of amino acids
+
+-----------------------------------------------------------------------------------
+
+Network 28
+
+
+Network ID: AT5G15850
+
+Interactor genes:
+	AT2G46340
+GO Biological Process of the network:
+	GO:0009658 P:chloroplast organization
+	GO:0010100 P:negative regulation of photomorphogenesis
+	GO:0009640 P:photomorphogenesis
+	GO:0010017 P:red or far-red light signaling pathway
+	GO:0009585 P:red, far-red light phototransduction
+	GO:2000028 P:regulation of photoperiodism, flowering
+	GO:0009637 P:response to blue light
+	GO:0010218 P:response to far red light
+	GO:0010114 P:response to red light
+	GO:0048575 P:short-day photoperiodism, flowering
+KEGG Pathways of the network:
+	ath04712:Circadian rhythm - plant
+
+-----------------------------------------------------------------------------------
+
+Network 29
+
+
+Network ID: AT5G17300
+
+Interactor genes:
+	AT3G45780
+GO Biological Process of the network:
+	GO:0009904 P:chloroplast accumulation movement
+	GO:0009903 P:chloroplast avoidance movement
+	GO:0007623 P:circadian rhythm
+	GO:0010362 P:negative regulation of anion channel activity by blue light
+	GO:0009638 P:phototropism
+	GO:0046777 P:protein autophosphorylation
+	GO:0006468 P:protein phosphorylation
+	GO:0018298 P:protein-chromophore linkage
+	GO:0010155 P:regulation of proton transport
+	GO:0010119 P:regulation of stomatal movement
+	GO:0009637 P:response to blue light
+	GO:0050896 P:response to stimulus
+KEGG Pathways of the network:
+	No Kegg ID (nor Kegg Pathways) associated with this network
+
+-----------------------------------------------------------------------------------
+
+Network 30
+
+
+Network ID: AT3G27690
+
+Interactor genes:
+	AT5G54270
+	AT2G34420
+	AT5G04140
+	AT5G35630
+	AT3G61260
+	AT4G37980
+GO Biological Process of the network:
+	GO:0015979 P:photosynthesis
+	GO:0009768 P:photosynthesis, light harvesting in photosystem I
+	GO:0009769 P:photosynthesis, light harvesting in photosystem II
+	GO:0018298 P:protein-chromophore linkage
+	GO:0010119 P:regulation of stomatal movement
+	GO:0009737 P:response to abscisic acid
+	GO:0009635 P:response to herbicide
+	GO:0009644 P:response to high light intensity
+	GO:0009416 P:response to light stimulus
+	GO:0006412 P:translation
+	GO:0009765 P:photosynthesis, light harvesting
+	GO:0032875 P:regulation of DNA endoreduplication
+	GO:0019676 P:ammonia assimilation cycle
+	GO:0006537 P:glutamate biosynthetic process
+	GO:0097054 P:L-glutamate biosynthetic process
+	GO:0009853 P:photorespiration
+	GO:0080114 P:positive regulation of glycine hydroxymethyltransferase activity
+	GO:0009744 P:response to sucrose
+	GO:0006541 P:glutamine metabolic process
+	GO:0007568 P:aging
+	GO:0006542 P:glutamine biosynthetic process
+	GO:0046686 P:response to cadmium ion
+	GO:0006807 P:nitrogen compound metabolic process
+	GO:0051607 P:defense response to virus
+	GO:0051665 P:membrane raft localization
+	GO:0009751 P:response to salicylic acid
+	GO:0010597 P:green leaf volatile biosynthetic process
+	GO:0009809 P:lignin biosynthetic process
+	GO:0009617 P:response to bacterium
+	GO:0033512 P:L-lysine catabolic process to acetyl-CoA via saccharopine
+KEGG Pathways of the network:
+	ath00196:Photosynthesis - antenna proteins
+	ath01100:Metabolic pathways
+	ath00630:Glyoxylate and dicarboxylate metabolism
+	ath00910:Nitrogen metabolism
+	ath00220:Arginine biosynthesis
+	ath00250:Alanine, aspartate and glutamate metabolism
+	ath01230:Biosynthesis of amino acids
+	ath00940:Phenylpropanoid biosynthesis
+	ath01110:Biosynthesis of secondary metabolites
+
+-----------------------------------------------------------------------------------
+
+Network 31
+
+
+Network ID: AT2G26080
+
+Interactor genes:
+	AT3G45780
+	AT3G54050
+	AT1G68570
+	AT4G33010
+	AT1G23740
+GO Biological Process of the network:
+	GO:0009904 P:chloroplast accumulation movement
+	GO:0009903 P:chloroplast avoidance movement
+	GO:0007623 P:circadian rhythm
+	GO:0010362 P:negative regulation of anion channel activity by blue light
+	GO:0009638 P:phototropism
+	GO:0046777 P:protein autophosphorylation
+	GO:0006468 P:protein phosphorylation
+	GO:0018298 P:protein-chromophore linkage
+	GO:0010155 P:regulation of proton transport
+	GO:0010119 P:regulation of stomatal movement
+	GO:0009637 P:response to blue light
+	GO:0050896 P:response to stimulus
+	GO:0030388 P:fructose 1,6-bisphosphate metabolic process
+	GO:0006002 P:fructose 6-phosphate metabolic process
+	GO:0006000 P:fructose metabolic process
+	GO:0006094 P:gluconeogenesis
+	GO:0015979 P:photosynthesis
+	GO:0009773 P:photosynthetic electron transport in photosystem I
+	GO:0019253 P:reductive pentose-phosphate cycle
+	GO:0009409 P:response to cold
+	GO:0005986 P:sucrose biosynthetic process
+	GO:0005985 P:sucrose metabolic process
+	GO:0005975 P:carbohydrate metabolic process
+	GO:0010336 P:gibberellic acid homeostasis
+	GO:0042128 P:nitrate assimilation
+	GO:0006857 P:oligopeptide transport
+	GO:0006546 P:glycine catabolic process
+	GO:0019464 P:glycine decarboxylation via glycine cleavage system
+	GO:0046686 P:response to cadmium ion
+	GO:0046856 P:phosphatidylinositol dephosphorylation
+KEGG Pathways of the network:
+	ath00010:Glycolysis / Gluconeogenesis
+	ath00030:Pentose phosphate pathway
+	ath00051:Fructose and mannose metabolism
+	ath00710:Carbon fixation in photosynthetic organisms
+	ath01100:Metabolic pathways
+	ath01110:Biosynthesis of secondary metabolites
+	ath01200:Carbon metabolism
+	ath00260:Glycine, serine and threonine metabolism
+	ath00630:Glyoxylate and dicarboxylate metabolism
+
+-----------------------------------------------------------------------------------
+
+Network 32
+
+
+Network ID: AT3G48360
+
+Interactor genes:
+	AT4G37610
+	AT3G54050
+GO Biological Process of the network:
+	GO:0016567 P:protein ubiquitination
+	GO:0006355 P:regulation of transcription, DNA-templated
+	GO:0009733 P:response to auxin
+	GO:0010200 P:response to chitin
+	GO:0009409 P:response to cold
+	GO:0042542 P:response to hydrogen peroxide
+	GO:0009751 P:response to salicylic acid
+	GO:0030388 P:fructose 1,6-bisphosphate metabolic process
+	GO:0006002 P:fructose 6-phosphate metabolic process
+	GO:0006000 P:fructose metabolic process
+	GO:0006094 P:gluconeogenesis
+	GO:0015979 P:photosynthesis
+	GO:0009773 P:photosynthetic electron transport in photosystem I
+	GO:0019253 P:reductive pentose-phosphate cycle
+	GO:0005986 P:sucrose biosynthetic process
+	GO:0005985 P:sucrose metabolic process
+	GO:0005975 P:carbohydrate metabolic process
+KEGG Pathways of the network:
+	ath00010:Glycolysis / Gluconeogenesis
+	ath00030:Pentose phosphate pathway
+	ath00051:Fructose and mannose metabolism
+	ath00710:Carbon fixation in photosynthetic organisms
+	ath01100:Metabolic pathways
+	ath01110:Biosynthesis of secondary metabolites
+	ath01200:Carbon metabolism
+
+-----------------------------------------------------------------------------------
+
+Network 33
+
+
+Network ID: AT1G61520
+
+Interactor genes:
+	AT1G12900
+	AT4G37980
+GO Biological Process of the network:
+	GO:0006006 P:glucose metabolic process
+	GO:0019253 P:reductive pentose-phosphate cycle
+	GO:0008643 P:carbohydrate transport
+	GO:0010597 P:green leaf volatile biosynthetic process
+	GO:0009809 P:lignin biosynthetic process
+	GO:0009617 P:response to bacterium
+	GO:0033512 P:L-lysine catabolic process to acetyl-CoA via saccharopine
+KEGG Pathways of the network:
+	ath00710:Carbon fixation in photosynthetic organisms
+	ath01100:Metabolic pathways
+	ath01200:Carbon metabolism
+	ath00940:Phenylpropanoid biosynthesis
+	ath01110:Biosynthesis of secondary metabolites
+
+-----------------------------------------------------------------------------------
+
+Network 34
+
+
+Network ID: AT2G43010
+
+Interactor genes:
+	AT3G16250
+GO Biological Process of the network:
+	GO:0009773 P:photosynthetic electron transport in photosystem I
+	GO:0006355 P:regulation of transcription, DNA-templated
+KEGG Pathways of the network:
+	No Kegg ID (nor Kegg Pathways) associated with this network
+
+-----------------------------------------------------------------------------------
+
+Network 35
+
+
+Network ID: AT3G28220
+
+Interactor genes:
+	AT2G47930
+	AT5G43750
+	AT3G49160
+	AT4G22890
+	AT5G38990
+	AT1G69870
+	AT3G01500
+	AT1G37130
+GO Biological Process of the network:
+	GO:0080167 P:response to karrikin
+	GO:0006979 P:response to oxidative stress
+	GO:0006096 P:glycolytic process
+	GO:0051321 P:meiotic cell cycle
+	GO:0007064 P:mitotic sister chromatid cohesion
+	GO:0009773 P:photosynthetic electron transport in photosystem I
+	GO:0046777 P:protein autophosphorylation
+	GO:0010038 P:response to metal ion
+	GO:0042128 P:nitrate assimilation
+	GO:0015706 P:nitrate transport
+	GO:0006355 P:regulation of transcription, DNA-templated
+	GO:0015976 P:carbon utilization
+	GO:0042742 P:defense response to bacterium
+	GO:0050832 P:defense response to fungus
+	GO:2000122 P:negative regulation of stomatal complex development
+	GO:0015979 P:photosynthesis
+	GO:0010119 P:regulation of stomatal movement
+	GO:0010037 P:response to carbon dioxide
+	GO:0009409 P:response to cold
+	GO:0006809 P:nitric oxide biosynthetic process
+	GO:0009635 P:response to herbicide
+	GO:0009416 P:response to light stimulus
+	GO:0009610 P:response to symbiotic fungus
+KEGG Pathways of the network:
+	ath00010:Glycolysis / Gluconeogenesis
+	ath00620:Pyruvate metabolism
+	ath01100:Metabolic pathways
+	ath01110:Biosynthesis of secondary metabolites
+	ath01200:Carbon metabolism
+	ath01230:Biosynthesis of amino acids
+	ath01240:Biosynthesis of cofactors
+	ath00910:Nitrogen metabolism
+
+-----------------------------------------------------------------------------------
+
+Network 36
+
+
+Network ID: AT2G26740
+
+Interactor genes:
+	AT4G17090
+	AT5G04140
+	AT4G21210
+	AT4G37800
+	AT5G48300
+	AT2G45170
+	AT2G21330
+GO Biological Process of the network:
+	GO:0000024 P:maltose biosynthetic process
+	GO:0009409 P:response to cold
+	GO:0005983 P:starch catabolic process
+	GO:0000272 P:polysaccharide catabolic process
+	GO:0019676 P:ammonia assimilation cycle
+	GO:0006537 P:glutamate biosynthetic process
+	GO:0097054 P:L-glutamate biosynthetic process
+	GO:0009853 P:photorespiration
+	GO:0080114 P:positive regulation of glycine hydroxymethyltransferase activity
+	GO:0009416 P:response to light stimulus
+	GO:0009744 P:response to sucrose
+	GO:0006541 P:glutamine metabolic process
+	GO:0042546 P:cell wall biogenesis
+	GO:0071555 P:cell wall organization
+	GO:0010411 P:xyloglucan metabolic process
+	GO:0006355 P:regulation of transcription, DNA-templated
+	GO:0005978 P:glycogen biosynthetic process
+	GO:0048573 P:photoperiodism, flowering
+	GO:0019252 P:starch biosynthetic process
+	GO:0006457 P:protein folding
+	GO:0006914 P:autophagy
+	GO:0006995 P:cellular response to nitrogen starvation
+	GO:0009267 P:cellular response to starvation
+	GO:0015031 P:protein transport
+	GO:0045471 P:response to ethanol
+	GO:0030388 P:fructose 1,6-bisphosphate metabolic process
+	GO:0006094 P:gluconeogenesis
+	GO:0006096 P:glycolytic process
+	GO:0046686 P:response to cadmium ion
+	GO:0030244 P:cellulose biosynthetic process
+KEGG Pathways of the network:
+	ath00500:Starch and sucrose metabolism
+	ath01100:Metabolic pathways
+	ath01110:Biosynthesis of secondary metabolites
+	ath00630:Glyoxylate and dicarboxylate metabolism
+	ath00910:Nitrogen metabolism
+	ath00520:Amino sugar and nucleotide sugar metabolism
+	ath01250:Biosynthesis of nucleotide sugars
+	ath04136:Autophagy - other
+	ath00010:Glycolysis / Gluconeogenesis
+	ath00030:Pentose phosphate pathway
+	ath00051:Fructose and mannose metabolism
+	ath00710:Carbon fixation in photosynthetic organisms
+	ath01200:Carbon metabolism
+	ath01230:Biosynthesis of amino acids
+
+-----------------------------------------------------------------------------------
+
+Network 37
+
+
+Network ID: AT3G54050
+
+Interactor genes:
+	AT1G68570
+	AT2G26080
+	AT4G33010
+	AT3G48360
+GO Biological Process of the network:
+	GO:0010336 P:gibberellic acid homeostasis
+	GO:0042128 P:nitrate assimilation
+	GO:0006857 P:oligopeptide transport
+	GO:0019464 P:glycine decarboxylation via glycine cleavage system
+	GO:0006546 P:glycine catabolic process
+	GO:0000398 P:mRNA splicing, via spliceosome
+	GO:0046686 P:response to cadmium ion
+	GO:0009738 P:abscisic acid-activated signaling pathway
+	GO:0009734 P:auxin-activated signaling pathway
+	GO:0007623 P:circadian rhythm
+	GO:0051973 P:positive regulation of telomerase activity
+	GO:0016567 P:protein ubiquitination
+	GO:0006355 P:regulation of transcription, DNA-templated
+	GO:0009737 P:response to abscisic acid
+	GO:0009733 P:response to auxin
+	GO:0009743 P:response to carbohydrate
+	GO:0009409 P:response to cold
+	GO:0042542 P:response to hydrogen peroxide
+	GO:0009753 P:response to jasmonic acid
+	GO:0010167 P:response to nitrate
+	GO:0009751 P:response to salicylic acid
+	GO:0009651 P:response to salt stress
+	GO:0009611 P:response to wounding
+	GO:0010182 P:sugar mediated signaling pathway
+KEGG Pathways of the network:
+	ath00260:Glycine, serine and threonine metabolism
+	ath00630:Glyoxylate and dicarboxylate metabolism
+	ath01100:Metabolic pathways
+	ath01110:Biosynthesis of secondary metabolites
+	ath01200:Carbon metabolism
+
+-----------------------------------------------------------------------------------
+
+Network 38
+
+
+Network ID: AT2G18700
+
+Interactor genes:
+	AT5G14740
+	AT2G39730
+	AT1G37130
+GO Biological Process of the network:
+	GO:0015976 P:carbon utilization
+	GO:0042742 P:defense response to bacterium
+	GO:0006865 P:amino acid transport
+	GO:0010150 P:leaf senescence
+	GO:0009409 P:response to cold
+	GO:0009753 P:response to jasmonic acid
+	GO:0009416 P:response to light stimulus
+	GO:0042128 P:nitrate assimilation
+	GO:0006809 P:nitric oxide biosynthetic process
+	GO:0009635 P:response to herbicide
+	GO:0009610 P:response to symbiotic fungus
+KEGG Pathways of the network:
+	ath00910:Nitrogen metabolism
+	ath01100:Metabolic pathways
+
+-----------------------------------------------------------------------------------
+
+Network 39
+
+
+Network ID: AT3G45780
+
+Interactor genes:
+	AT1G12900
+	AT1G14280
+	AT5G17300
+	AT1G23740
+	AT2G26080
+GO Biological Process of the network:
+	GO:0006006 P:glucose metabolic process
+	GO:0019253 P:reductive pentose-phosphate cycle
+	GO:0008643 P:carbohydrate transport
+	GO:0048366 P:leaf development
+	GO:0009638 P:phototropism
+	GO:0009585 P:red, far-red light phototransduction
+	GO:0009734 P:auxin-activated signaling pathway
+	GO:0007623 P:circadian rhythm
+	GO:0010600 P:regulation of auxin biosynthetic process
+	GO:0006355 P:regulation of transcription, DNA-templated
+	GO:0016567 P:protein ubiquitination
+	GO:0009409 P:response to cold
+	GO:0046856 P:phosphatidylinositol dephosphorylation
+	GO:0019464 P:glycine decarboxylation via glycine cleavage system
+	GO:0006546 P:glycine catabolic process
+	GO:0000398 P:mRNA splicing, via spliceosome
+KEGG Pathways of the network:
+	ath00710:Carbon fixation in photosynthetic organisms
+	ath01100:Metabolic pathways
+	ath01200:Carbon metabolism
+	ath00260:Glycine, serine and threonine metabolism
+	ath00630:Glyoxylate and dicarboxylate metabolism
+	ath01110:Biosynthesis of secondary metabolites
+
+-----------------------------------------------------------------------------------
+
+Network 40
+
+
+Network ID: AT1G68570
+
+Interactor genes:
+	AT3G54050
+	AT2G26080
+	AT4G33010
+GO Biological Process of the network:
+	GO:0030388 P:fructose 1,6-bisphosphate metabolic process
+	GO:0006002 P:fructose 6-phosphate metabolic process
+	GO:0006000 P:fructose metabolic process
+	GO:0006094 P:gluconeogenesis
+	GO:0015979 P:photosynthesis
+	GO:0009773 P:photosynthetic electron transport in photosystem I
+	GO:0019253 P:reductive pentose-phosphate cycle
+	GO:0009409 P:response to cold
+	GO:0005986 P:sucrose biosynthetic process
+	GO:0005985 P:sucrose metabolic process
+	GO:0005975 P:carbohydrate metabolic process
+	GO:0019464 P:glycine decarboxylation via glycine cleavage system
+	GO:0000398 P:mRNA splicing, via spliceosome
+	GO:0006546 P:glycine catabolic process
+	GO:0046686 P:response to cadmium ion
+KEGG Pathways of the network:
+	ath00010:Glycolysis / Gluconeogenesis
+	ath00030:Pentose phosphate pathway
+	ath00051:Fructose and mannose metabolism
+	ath00710:Carbon fixation in photosynthetic organisms
+	ath01100:Metabolic pathways
+	ath01110:Biosynthesis of secondary metabolites
+	ath01200:Carbon metabolism
+	ath00260:Glycine, serine and threonine metabolism
+	ath00630:Glyoxylate and dicarboxylate metabolism
+
+-----------------------------------------------------------------------------------
+
+Network 41
+
+
+Network ID: AT2G30950
+
+Interactor genes:
+	AT3G16250
+	AT3G62410
+GO Biological Process of the network:
+	GO:0009773 P:photosynthetic electron transport in photosystem I
+	GO:0006355 P:regulation of transcription, DNA-templated
+	GO:0071454 P:cellular response to anoxia
+	GO:0070417 P:cellular response to cold
+	GO:0034605 P:cellular response to heat
+	GO:0080153 P:negative regulation of reductive pentose-phosphate cycle
+	GO:0018316 P:peptide cross-linking via L-cystine
+	GO:0065003 P:protein-containing complex assembly
+	GO:0019253 P:reductive pentose-phosphate cycle
+	GO:0009416 P:response to light stimulus
+	GO:0009744 P:response to sucrose
+KEGG Pathways of the network:
+	No Kegg ID (nor Kegg Pathways) associated with this network
+
+-----------------------------------------------------------------------------------
+
+Network 42
+
+
+Network ID: AT3G62410
+
+Interactor genes:
+	AT3G50820
+	AT3G01500
+	AT3G55800
+	AT5G14740
+	AT2G39730
+	AT5G35630
+	AT4G22890
+	AT3G16250
+	AT2G30950
+GO Biological Process of the network:
+	GO:0010205 P:photoinhibition
+	GO:0019684 P:photosynthesis, light reaction
+	GO:0010207 P:photosystem II assembly
+	GO:0042549 P:photosystem II stabilization
+	GO:0035304 P:regulation of protein dephosphorylation
+	GO:0015976 P:carbon utilization
+	GO:0042742 P:defense response to bacterium
+	GO:0050832 P:defense response to fungus
+	GO:2000122 P:negative regulation of stomatal complex development
+	GO:0015979 P:photosynthesis
+	GO:0010119 P:regulation of stomatal movement
+	GO:0010037 P:response to carbon dioxide
+	GO:0009409 P:response to cold
+	GO:0016051 P:carbohydrate biosynthetic process
+	GO:0030388 P:fructose 1,6-bisphosphate metabolic process
+	GO:0006002 P:fructose 6-phosphate metabolic process
+	GO:0006000 P:fructose metabolic process
+	GO:0006094 P:gluconeogenesis
+	GO:0019253 P:reductive pentose-phosphate cycle
+	GO:0019252 P:starch biosynthetic process
+	GO:0005986 P:sucrose biosynthetic process
+	GO:0005975 P:carbohydrate metabolic process
+	GO:0006865 P:amino acid transport
+	GO:0010150 P:leaf senescence
+	GO:0009753 P:response to jasmonic acid
+	GO:0009416 P:response to light stimulus
+	GO:0007568 P:aging
+	GO:0019676 P:ammonia assimilation cycle
+	GO:0006542 P:glutamine biosynthetic process
+	GO:0046686 P:response to cadmium ion
+	GO:0006807 P:nitrogen compound metabolic process
+	GO:0009773 P:photosynthetic electron transport in photosystem I
+	GO:0006355 P:regulation of transcription, DNA-templated
+	GO:0009658 P:chloroplast organization
+	GO:0007275 P:multicellular organism development
+	GO:0048564 P:photosystem I assembly
+	GO:0010206 P:photosystem II repair
+	GO:0030163 P:protein catabolic process
+	GO:0006508 P:proteolysis
+	GO:0010304 P:PSII associated light-harvesting complex II catabolic process
+	GO:0072593 P:reactive oxygen species metabolic process
+	GO:0010027 P:thylakoid membrane organization
+KEGG Pathways of the network:
+	ath00195:Photosynthesis
+	ath01100:Metabolic pathways
+	ath00910:Nitrogen metabolism
+	ath00710:Carbon fixation in photosynthetic organisms
+	ath01200:Carbon metabolism
+	ath00220:Arginine biosynthesis
+	ath00250:Alanine, aspartate and glutamate metabolism
+	ath00630:Glyoxylate and dicarboxylate metabolism
+	ath01230:Biosynthesis of amino acids
+
+-----------------------------------------------------------------------------------
+
+Network 43
+
+
+Network ID: AT3G16250
+
+Interactor genes:
+	AT2G30950
+	AT3G62410
+	AT1G03130
+	AT2G17880
+	AT4G02770
+	AT1G29910
+	AT2G34420
+	AT1G29920
+	AT2G43010
+	AT4G09010
+GO Biological Process of the network:
+	GO:0009658 P:chloroplast organization
+	GO:0007275 P:multicellular organism development
+	GO:0010205 P:photoinhibition
+	GO:0048564 P:photosystem I assembly
+	GO:0010206 P:photosystem II repair
+	GO:0030163 P:protein catabolic process
+	GO:0006508 P:proteolysis
+	GO:0010304 P:PSII associated light-harvesting complex II catabolic process
+	GO:0072593 P:reactive oxygen species metabolic process
+	GO:0010027 P:thylakoid membrane organization
+	GO:0071454 P:cellular response to anoxia
+	GO:0070417 P:cellular response to cold
+	GO:0034605 P:cellular response to heat
+	GO:0080153 P:negative regulation of reductive pentose-phosphate cycle
+	GO:0018316 P:peptide cross-linking via L-cystine
+	GO:0065003 P:protein-containing complex assembly
+	GO:0019253 P:reductive pentose-phosphate cycle
+	GO:0009416 P:response to light stimulus
+	GO:0009744 P:response to sucrose
+	GO:0015979 P:photosynthesis
+	GO:0140547 P:acquisition of seed longevity
+	GO:0035556 P:intracellular signal transduction
+	GO:0009768 P:photosynthesis, light harvesting in photosystem I
+	GO:0018298 P:protein-chromophore linkage
+	GO:0009750 P:response to fructose
+	GO:0009765 P:photosynthesis, light harvesting
+	GO:0009733 P:response to auxin
+	GO:0032875 P:regulation of DNA endoreduplication
+	GO:0009704 P:de-etiolation
+	GO:0009638 P:phototropism
+	GO:0010161 P:red light signaling pathway
+	GO:0010017 P:red or far-red light signaling pathway
+	GO:0009585 P:red, far-red light phototransduction
+	GO:0010600 P:regulation of auxin biosynthetic process
+	GO:0010928 P:regulation of auxin mediated signaling pathway
+	GO:0010244 P:response to low fluence blue light stimulus by blue low-fluence system
+	GO:0034599 P:cellular response to oxidative stress
+	GO:0042744 P:hydrogen peroxide catabolic process
+	GO:0000302 P:response to reactive oxygen species
+	GO:0006979 P:response to oxidative stress
+KEGG Pathways of the network:
+	ath00195:Photosynthesis
+	ath01100:Metabolic pathways
+	ath00196:Photosynthesis - antenna proteins
+	ath04075:Plant hormone signal transduction
+	ath00053:Ascorbate and aldarate metabolism
+	ath00480:Glutathione metabolism
+
+-----------------------------------------------------------------------------------
+
+Network 44
+
+
+Network ID: AT1G09340
+
+Interactor genes:
+	AT3G63140
+GO Biological Process of the network:
+	GO:0009658 P:chloroplast organization
+	GO:0007623 P:circadian rhythm
+	GO:0032544 P:plastid translation
+	GO:0045893 P:positive regulation of transcription, DNA-templated
+	GO:0045727 P:positive regulation of translation
+	GO:0006364 P:rRNA processing
+KEGG Pathways of the network:
+	No Kegg ID (nor Kegg Pathways) associated with this network
+
+-----------------------------------------------------------------------------------
+
+Network 45
+
+
+Network ID: AT3G63140
+
+Interactor genes:
+	AT1G09340
+GO Biological Process of the network:
+	GO:0042631 P:cellular response to water deprivation
+	GO:0009658 P:chloroplast organization
+	GO:0007623 P:circadian rhythm
+	GO:0042742 P:defense response to bacterium
+	GO:0005996 P:monosaccharide metabolic process
+	GO:0032544 P:plastid translation
+	GO:0000272 P:polysaccharide catabolic process
+	GO:0045893 P:positive regulation of transcription, DNA-templated
+	GO:0045727 P:positive regulation of translation
+	GO:0010468 P:regulation of gene expression
+	GO:0009409 P:response to cold
+	GO:0009611 P:response to wounding
+	GO:0006364 P:rRNA processing
+KEGG Pathways of the network:
+	No Kegg ID (nor Kegg Pathways) associated with this network
+
+-----------------------------------------------------------------------------------
+
+Network 46
+
+
+Network ID: AT3G47340
+
+Interactor genes:
+	AT5G65010
+	AT4G37800
+	AT4G17090
+GO Biological Process of the network:
+	GO:0097164 P:ammonium ion metabolic process
+	GO:0006529 P:asparagine biosynthetic process
+	GO:0006541 P:glutamine metabolic process
+	GO:0042538 P:hyperosmotic salinity response
+	GO:0070981 P:L-asparagine biosynthetic process
+	GO:0042546 P:cell wall biogenesis
+	GO:0071555 P:cell wall organization
+	GO:0010411 P:xyloglucan metabolic process
+	GO:0006355 P:regulation of transcription, DNA-templated
+	GO:0000024 P:maltose biosynthetic process
+	GO:0009409 P:response to cold
+	GO:0005983 P:starch catabolic process
+	GO:0000272 P:polysaccharide catabolic process
+KEGG Pathways of the network:
+	ath00250:Alanine, aspartate and glutamate metabolism
+	ath01100:Metabolic pathways
+	ath01110:Biosynthesis of secondary metabolites
+	ath01230:Biosynthesis of amino acids
+	ath00500:Starch and sucrose metabolism
+
+-----------------------------------------------------------------------------------
+
+Network 47
+
+
+Network ID: AT5G35630
+
+Interactor genes:
+	AT3G50820
+	AT3G01500
+	AT3G55800
+	AT5G14740
+	AT3G62410
+	AT2G39730
+	AT4G22890
+	AT5G54270
+	AT3G27690
+	AT2G34420
+GO Biological Process of the network:
+	GO:0010205 P:photoinhibition
+	GO:0019684 P:photosynthesis, light reaction
+	GO:0010207 P:photosystem II assembly
+	GO:0042549 P:photosystem II stabilization
+	GO:0035304 P:regulation of protein dephosphorylation
+	GO:0015976 P:carbon utilization
+	GO:0042742 P:defense response to bacterium
+	GO:0050832 P:defense response to fungus
+	GO:2000122 P:negative regulation of stomatal complex development
+	GO:0015979 P:photosynthesis
+	GO:0010119 P:regulation of stomatal movement
+	GO:0010037 P:response to carbon dioxide
+	GO:0009409 P:response to cold
+	GO:0016051 P:carbohydrate biosynthetic process
+	GO:0030388 P:fructose 1,6-bisphosphate metabolic process
+	GO:0006002 P:fructose 6-phosphate metabolic process
+	GO:0006000 P:fructose metabolic process
+	GO:0006094 P:gluconeogenesis
+	GO:0019253 P:reductive pentose-phosphate cycle
+	GO:0019252 P:starch biosynthetic process
+	GO:0005986 P:sucrose biosynthetic process
+	GO:0005975 P:carbohydrate metabolic process
+	GO:0006865 P:amino acid transport
+	GO:0071454 P:cellular response to anoxia
+	GO:0070417 P:cellular response to cold
+	GO:0034605 P:cellular response to heat
+	GO:0080153 P:negative regulation of reductive pentose-phosphate cycle
+	GO:0018316 P:peptide cross-linking via L-cystine
+	GO:0065003 P:protein-containing complex assembly
+	GO:0009416 P:response to light stimulus
+	GO:0009744 P:response to sucrose
+	GO:0010150 P:leaf senescence
+	GO:0009753 P:response to jasmonic acid
+	GO:0009773 P:photosynthetic electron transport in photosystem I
+	GO:0009768 P:photosynthesis, light harvesting in photosystem I
+	GO:0009769 P:photosynthesis, light harvesting in photosystem II
+	GO:0018298 P:protein-chromophore linkage
+	GO:0009737 P:response to abscisic acid
+	GO:0009635 P:response to herbicide
+	GO:0009644 P:response to high light intensity
+	GO:0006412 P:translation
+	GO:0009765 P:photosynthesis, light harvesting
+	GO:0045893 P:positive regulation of transcription, DNA-templated
+	GO:0006355 P:regulation of transcription, DNA-templated
+	GO:0071215 P:cellular response to abscisic acid stimulus
+	GO:1903428 P:positive regulation of reactive oxygen species biosynthetic process
+	GO:0090333 P:regulation of stomatal closure
+	GO:0009269 P:response to desiccation
+	GO:0010218 P:response to far red light
+	GO:0009645 P:response to low light intensity stimulus
+	GO:0010114 P:response to red light
+	GO:0030104 P:water homeostasis
+	GO:0032875 P:regulation of DNA endoreduplication
+KEGG Pathways of the network:
+	ath00195:Photosynthesis
+	ath01100:Metabolic pathways
+	ath00910:Nitrogen metabolism
+	ath00710:Carbon fixation in photosynthetic organisms
+	ath01200:Carbon metabolism
+	ath00196:Photosynthesis - antenna proteins
+
+-----------------------------------------------------------------------------------
+
+Network 48
+
+
+Network ID: AT1G29910
+
+Interactor genes:
+	AT2G34420
+	AT3G16250
+	AT1G29920
+	AT4G02770
+	AT1G03130
+GO Biological Process of the network:
+	GO:0009765 P:photosynthesis, light harvesting
+	GO:0018298 P:protein-chromophore linkage
+	GO:0009768 P:photosynthesis, light harvesting in photosystem I
+	GO:0009416 P:response to light stimulus
+	GO:0032875 P:regulation of DNA endoreduplication
+	GO:0009773 P:photosynthetic electron transport in photosystem I
+	GO:0006355 P:regulation of transcription, DNA-templated
+	GO:0009750 P:response to fructose
+	GO:0140547 P:acquisition of seed longevity
+	GO:0015979 P:photosynthesis
+	GO:0035556 P:intracellular signal transduction
+KEGG Pathways of the network:
+	ath00196:Photosynthesis - antenna proteins
+	ath01100:Metabolic pathways
+	ath00195:Photosynthesis
+
+-----------------------------------------------------------------------------------
+
+Network 49
+
+
+Network ID: AT1G69870
+
+Interactor genes:
+	AT5G38990
+	AT4G22890
+	AT5G43750
+	AT3G61260
+	AT3G28220
+GO Biological Process of the network:
+	GO:0046777 P:protein autophosphorylation
+	GO:0010038 P:response to metal ion
+	GO:0009773 P:photosynthetic electron transport in photosystem I
+	GO:0006979 P:response to oxidative stress
+	GO:0051607 P:defense response to virus
+	GO:0051665 P:membrane raft localization
+	GO:0009751 P:response to salicylic acid
+KEGG Pathways of the network:
+	No Kegg ID (nor Kegg Pathways) associated with this network
+
+-----------------------------------------------------------------------------------
+
+Network 50
+
+
+Network ID: AT2G47930
+
+Interactor genes:
+	AT3G28220
+GO Biological Process of the network:
+	No GO ID (nor GO Term) associated with this network
+KEGG Pathways of the network:
+	No Kegg ID (nor Kegg Pathways) associated with this network
+
+-----------------------------------------------------------------------------------
+
+Network 51
+
+
+Network ID: AT5G43750
+
+Interactor genes:
+	AT3G28220
+	AT5G38990
+	AT4G22890
+	AT3G61260
+	AT1G69870
+GO Biological Process of the network:
+	GO:0046777 P:protein autophosphorylation
+	GO:0010038 P:response to metal ion
+	GO:0009773 P:photosynthetic electron transport in photosystem I
+	GO:0051607 P:defense response to virus
+	GO:0051665 P:membrane raft localization
+	GO:0009751 P:response to salicylic acid
+	GO:0042128 P:nitrate assimilation
+	GO:0015706 P:nitrate transport
+	GO:0006355 P:regulation of transcription, DNA-templated
+KEGG Pathways of the network:
+	No Kegg ID (nor Kegg Pathways) associated with this network
+
+-----------------------------------------------------------------------------------
+
+Network 52
+
+
+Network ID: AT3G50820
+
+Interactor genes:
+	AT3G01500
+	AT3G55800
+	AT5G14740
+	AT3G62410
+	AT2G39730
+	AT5G35630
+	AT4G22890
+GO Biological Process of the network:
+	GO:0015976 P:carbon utilization
+	GO:0042742 P:defense response to bacterium
+	GO:0050832 P:defense response to fungus
+	GO:2000122 P:negative regulation of stomatal complex development
+	GO:0015979 P:photosynthesis
+	GO:0010119 P:regulation of stomatal movement
+	GO:0010037 P:response to carbon dioxide
+	GO:0009409 P:response to cold
+	GO:0016051 P:carbohydrate biosynthetic process
+	GO:0030388 P:fructose 1,6-bisphosphate metabolic process
+	GO:0006002 P:fructose 6-phosphate metabolic process
+	GO:0006000 P:fructose metabolic process
+	GO:0006094 P:gluconeogenesis
+	GO:0019253 P:reductive pentose-phosphate cycle
+	GO:0019252 P:starch biosynthetic process
+	GO:0005986 P:sucrose biosynthetic process
+	GO:0005975 P:carbohydrate metabolic process
+	GO:0006865 P:amino acid transport
+	GO:0071454 P:cellular response to anoxia
+	GO:0070417 P:cellular response to cold
+	GO:0034605 P:cellular response to heat
+	GO:0080153 P:negative regulation of reductive pentose-phosphate cycle
+	GO:0018316 P:peptide cross-linking via L-cystine
+	GO:0065003 P:protein-containing complex assembly
+	GO:0009416 P:response to light stimulus
+	GO:0009744 P:response to sucrose
+	GO:0010150 P:leaf senescence
+	GO:0009753 P:response to jasmonic acid
+	GO:0007568 P:aging
+	GO:0019676 P:ammonia assimilation cycle
+	GO:0006542 P:glutamine biosynthetic process
+	GO:0046686 P:response to cadmium ion
+	GO:0006807 P:nitrogen compound metabolic process
+	GO:0009773 P:photosynthetic electron transport in photosystem I
+KEGG Pathways of the network:
+	ath00910:Nitrogen metabolism
+	ath01100:Metabolic pathways
+	ath00710:Carbon fixation in photosynthetic organisms
+	ath01200:Carbon metabolism
+	ath00220:Arginine biosynthesis
+	ath00250:Alanine, aspartate and glutamate metabolism
+	ath00630:Glyoxylate and dicarboxylate metabolism
+	ath01230:Biosynthesis of amino acids
+
+-----------------------------------------------------------------------------------
+
+Network 53
+
+
+Network ID: AT4G37610
+
+Interactor genes:
+	AT3G48360
+GO Biological Process of the network:
+	GO:0009738 P:abscisic acid-activated signaling pathway
+	GO:0009734 P:auxin-activated signaling pathway
+	GO:0007623 P:circadian rhythm
+	GO:0051973 P:positive regulation of telomerase activity
+	GO:0016567 P:protein ubiquitination
+	GO:0006355 P:regulation of transcription, DNA-templated
+	GO:0009737 P:response to abscisic acid
+	GO:0009733 P:response to auxin
+	GO:0009743 P:response to carbohydrate
+	GO:0009409 P:response to cold
+	GO:0042542 P:response to hydrogen peroxide
+	GO:0009753 P:response to jasmonic acid
+	GO:0010167 P:response to nitrate
+	GO:0009751 P:response to salicylic acid
+	GO:0009651 P:response to salt stress
+	GO:0009611 P:response to wounding
+	GO:0010182 P:sugar mediated signaling pathway
+	GO:0006857 P:oligopeptide transport
+KEGG Pathways of the network:
+	No Kegg ID (nor Kegg Pathways) associated with this network
+
+-----------------------------------------------------------------------------------
+
+Network 54
+
+
+Network ID: AT3G61260
+
+Interactor genes:
+	AT4G22890
+	AT5G43750
+	AT5G38990
+	AT1G69870
+	AT2G34420
+	AT3G27690
+GO Biological Process of the network:
+	GO:0009773 P:photosynthetic electron transport in photosystem I
+	GO:0006979 P:response to oxidative stress
+	GO:0046777 P:protein autophosphorylation
+	GO:0010038 P:response to metal ion
+	GO:0042128 P:nitrate assimilation
+	GO:0015706 P:nitrate transport
+	GO:0006355 P:regulation of transcription, DNA-templated
+	GO:0009765 P:photosynthesis, light harvesting
+	GO:0018298 P:protein-chromophore linkage
+	GO:0009768 P:photosynthesis, light harvesting in photosystem I
+	GO:0009416 P:response to light stimulus
+	GO:0032875 P:regulation of DNA endoreduplication
+	GO:0045893 P:positive regulation of transcription, DNA-templated
+	GO:0071215 P:cellular response to abscisic acid stimulus
+	GO:0009769 P:photosynthesis, light harvesting in photosystem II
+	GO:1903428 P:positive regulation of reactive oxygen species biosynthetic process
+	GO:0090333 P:regulation of stomatal closure
+	GO:0009409 P:response to cold
+	GO:0009269 P:response to desiccation
+	GO:0010218 P:response to far red light
+	GO:0009644 P:response to high light intensity
+	GO:0009645 P:response to low light intensity stimulus
+	GO:0010114 P:response to red light
+	GO:0030104 P:water homeostasis
+KEGG Pathways of the network:
+	ath00196:Photosynthesis - antenna proteins
+	ath01100:Metabolic pathways
+
+-----------------------------------------------------------------------------------
+
+Network 55
+
+
+Network ID: AT5G38990
+
+Interactor genes:
+	AT3G61260
+	AT1G69870
+	AT4G22890
+	AT5G43750
+	AT3G28220
+GO Biological Process of the network:
+	GO:0051607 P:defense response to virus
+	GO:0051665 P:membrane raft localization
+	GO:0009751 P:response to salicylic acid
+	GO:0042128 P:nitrate assimilation
+	GO:0015706 P:nitrate transport
+	GO:0006355 P:regulation of transcription, DNA-templated
+	GO:0009773 P:photosynthetic electron transport in photosystem I
+	GO:0006979 P:response to oxidative stress
+KEGG Pathways of the network:
+	No Kegg ID (nor Kegg Pathways) associated with this network
+
+-----------------------------------------------------------------------------------
+
+Network 56
+
+
+Network ID: AT1G29920
+
+Interactor genes:
+	AT1G29910
+	AT2G34420
+	AT3G16250
+	AT4G02770
+	AT1G03130
+	AT5G01530
+	AT1G15820
+GO Biological Process of the network:
+	GO:0009768 P:photosynthesis, light harvesting in photosystem I
+	GO:0018298 P:protein-chromophore linkage
+	GO:0009416 P:response to light stimulus
+	GO:0009750 P:response to fructose
+	GO:0009765 P:photosynthesis, light harvesting
+	GO:0009733 P:response to auxin
+	GO:0032875 P:regulation of DNA endoreduplication
+	GO:0009773 P:photosynthetic electron transport in photosystem I
+	GO:0006355 P:regulation of transcription, DNA-templated
+	GO:0140547 P:acquisition of seed longevity
+	GO:0015979 P:photosynthesis
+	GO:0035556 P:intracellular signal transduction
+	GO:0010196 P:nonphotochemical quenching
+KEGG Pathways of the network:
+	ath00196:Photosynthesis - antenna proteins
+	ath01100:Metabolic pathways
+	ath00195:Photosynthesis
+
+-----------------------------------------------------------------------------------
+
+Network 57
+
+
+Network ID: AT4G02770
+
+Interactor genes:
+	AT1G03130
+	AT2G17880
+	AT3G16250
+	AT1G29910
+	AT2G34420
+	AT1G29920
+	AT4G22890
+	AT1G20020
+GO Biological Process of the network:
+	GO:0015979 P:photosynthesis
+	GO:0009773 P:photosynthetic electron transport in photosystem I
+	GO:0006355 P:regulation of transcription, DNA-templated
+	GO:0009768 P:photosynthesis, light harvesting in photosystem I
+	GO:0018298 P:protein-chromophore linkage
+	GO:0009416 P:response to light stimulus
+	GO:0009750 P:response to fructose
+	GO:0009765 P:photosynthesis, light harvesting
+	GO:0009733 P:response to auxin
+	GO:0032875 P:regulation of DNA endoreduplication
+	GO:0042742 P:defense response to bacterium
+	GO:0050832 P:defense response to fungus
+	GO:0006260 P:DNA replication
+KEGG Pathways of the network:
+	ath00195:Photosynthesis
+	ath01100:Metabolic pathways
+	ath00196:Photosynthesis - antenna proteins
+
+-----------------------------------------------------------------------------------
+
+Network 58
+
+
+Network ID: AT4G39710
+
+Interactor genes:
+	AT1G80440
+GO Biological Process of the network:
+	GO:0080037 P:negative regulation of cytokinin-activated signaling pathway
+	GO:2000762 P:regulation of phenylpropanoid metabolic process
+KEGG Pathways of the network:
+	No Kegg ID (nor Kegg Pathways) associated with this network
+
+-----------------------------------------------------------------------------------
+
+Network 59
+
+
+Network ID: AT5G48300
+
+Interactor genes:
+	AT2G26740
+	AT4G17090
+GO Biological Process of the network:
+	GO:0009733 P:response to auxin
+	GO:0009414 P:response to water deprivation
+	GO:0000024 P:maltose biosynthetic process
+	GO:0009409 P:response to cold
+	GO:0005983 P:starch catabolic process
+	GO:0000272 P:polysaccharide catabolic process
+KEGG Pathways of the network:
+	ath00500:Starch and sucrose metabolism
+	ath01100:Metabolic pathways
+	ath01110:Biosynthesis of secondary metabolites
+
+-----------------------------------------------------------------------------------
+
+Network 60
+
+
+Network ID: AT1G14280
+
+Interactor genes:
+	AT3G45780
+GO Biological Process of the network:
+	GO:0009904 P:chloroplast accumulation movement
+	GO:0009903 P:chloroplast avoidance movement
+	GO:0007623 P:circadian rhythm
+	GO:0010362 P:negative regulation of anion channel activity by blue light
+	GO:0009638 P:phototropism
+	GO:0046777 P:protein autophosphorylation
+	GO:0006468 P:protein phosphorylation
+	GO:0018298 P:protein-chromophore linkage
+	GO:0010155 P:regulation of proton transport
+	GO:0010119 P:regulation of stomatal movement
+	GO:0009637 P:response to blue light
+	GO:0050896 P:response to stimulus
+KEGG Pathways of the network:
+	No Kegg ID (nor Kegg Pathways) associated with this network
+
+-----------------------------------------------------------------------------------
+
+Network 61
+
+
+Network ID: AT4G09010
+
+Interactor genes:
+	AT3G16250
+GO Biological Process of the network:
+	GO:0009773 P:photosynthetic electron transport in photosystem I
+	GO:0006355 P:regulation of transcription, DNA-templated
+KEGG Pathways of the network:
+	No Kegg ID (nor Kegg Pathways) associated with this network
+
+-----------------------------------------------------------------------------------
+
+Network 62
+
+
+Network ID: AT5G01530
+
+Interactor genes:
+	AT2G34420
+	AT1G15820
+	AT1G29920
+GO Biological Process of the network:
+	GO:0009765 P:photosynthesis, light harvesting
+	GO:0018298 P:protein-chromophore linkage
+	GO:0009768 P:photosynthesis, light harvesting in photosystem I
+	GO:0009416 P:response to light stimulus
+	GO:0032875 P:regulation of DNA endoreduplication
+	GO:0010196 P:nonphotochemical quenching
+	GO:0015979 P:photosynthesis
+	GO:0009750 P:response to fructose
+KEGG Pathways of the network:
+	ath00196:Photosynthesis - antenna proteins
+	ath01100:Metabolic pathways
 
 -----------------------------------------------------------------------------------
