@@ -1,4 +1,7 @@
 Assignment 2
+
+Number of recursivity steps:2
+
 Networks of input genes that interact with other input genes:
 
 -----------------------------------------------------------------------------------
@@ -1484,8 +1487,8 @@ GO Biological Process of the network:
 	GO:0042128 P:nitrate assimilation
 	GO:0006857 P:oligopeptide transport
 	GO:0019464 P:glycine decarboxylation via glycine cleavage system
-	GO:0006546 P:glycine catabolic process
 	GO:0000398 P:mRNA splicing, via spliceosome
+	GO:0006546 P:glycine catabolic process
 	GO:0046686 P:response to cadmium ion
 	GO:0009738 P:abscisic acid-activated signaling pathway
 	GO:0009734 P:auxin-activated signaling pathway
@@ -1600,8 +1603,8 @@ GO Biological Process of the network:
 	GO:0005985 P:sucrose metabolic process
 	GO:0005975 P:carbohydrate metabolic process
 	GO:0019464 P:glycine decarboxylation via glycine cleavage system
-	GO:0006546 P:glycine catabolic process
 	GO:0000398 P:mRNA splicing, via spliceosome
+	GO:0006546 P:glycine catabolic process
 	GO:0046686 P:response to cadmium ion
 KEGG Pathways of the network:
 	ath00010:Glycolysis / Gluconeogenesis
@@ -1730,7 +1733,6 @@ Interactor genes:
 	AT4G09010
 GO Biological Process of the network:
 	GO:0009658 P:chloroplast organization
-	GO:0007275 P:multicellular organism development
 	GO:0010205 P:photoinhibition
 	GO:0048564 P:photosystem I assembly
 	GO:0010206 P:photosystem II repair
@@ -2115,7 +2117,6 @@ GO Biological Process of the network:
 	GO:0009651 P:response to salt stress
 	GO:0009611 P:response to wounding
 	GO:0010182 P:sugar mediated signaling pathway
-	GO:0006857 P:oligopeptide transport
 KEGG Pathways of the network:
 	No Kegg ID (nor Kegg Pathways) associated with this network
 
