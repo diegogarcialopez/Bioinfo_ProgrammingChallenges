@@ -3,7 +3,8 @@
   require './Networks.rb'                                                        
   
 inputs = ARGV
-$max_depth = inputs[2]
+$max_depth = inputs[2]                                                                        # Let the user set the number of recursivity steps.
+
 $list_of_genes = []
 creating_list = File.open(inputs[0], "r").each do |gene_id|                                   # Creating a global varible containing all the input genes.
     $list_of_genes << gene_id.strip.upcase
