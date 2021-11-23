@@ -17,7 +17,7 @@ end
 input.close
 
 output = File.open(inputs[1], mode: "w") # Writting the output file                           # Writing the header of the output file.
-output << "Assignment 2\nNEtworkss of input genes that interact with other input genes:\n\n-----------------------------------------------------------------------------------\n"
+output << "Assignment 2\nNetworks of input genes that interact with other input genes:\n\n-----------------------------------------------------------------------------------\n"
 output.close
 
 add = File.open(inputs[1], "a")                                                               # Adding the networks to the output file.
