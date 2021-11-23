@@ -1,16 +1,18 @@
 ## Program description and usage
-This program searches the interactions for some given genes and their interactors, but only from Arabidopsis thaliana.
-Afterwards, it builds the interaction networks for each input gene with all its direct interactors, and also with the genes that directly interact with these interactors (there is only one step of recursivity).
-Moreover, the networks are accompanied by the GO ID, GO Term, KEGG ID and KEGG Pathways of the interacting members. However, these networks are not outputted.
+This program searches the interactions for the given genes in the input list, but only from Arabidopsis thaliana.
+Afterwards, it builds the interaction networks for each input gene with all the interactors, that are also present in the input list (given a specified number of recursivity steps).
+The number of recursivity steps determine the lenght of the network. That means that if this number is 2, the program will search the interactors for the input genes, but also for the genes tha interact with
+these interactors. If we add another recursivity step, the program will also search for the interactors for the end genes of the previous network. This is represented in the next image:
+![Recursivity steps](./FOTO.jpg)
 
-Nevertheless, the main purpose of the program is to output the networks of the input genes that interact with other input genes. The program will output the results in the "Output file" indicated.
+Moreover, the networks are built accompanied by the GO IDs, GO Terms, KEGG IDs and KEGG Pathways of the interacting members. The program will output the results in the "Output file" that the user indicates.
 
-Finally, the usage of this programs is:
+The usage of this programs would be like this:
 
-ruby Main.rb "Input gene list file" "Output file"
+ruby Main.rb "Input gene list file" "Output file" "steps of recursivity"
 
 Example:
 
-ruby Main.rb ArabidopsisSubNetwork_GeneList.txt Output.txt
+ruby Main.rb ArabidopsisSubNetwork_GeneList.txt Output.txt 2
 
 
