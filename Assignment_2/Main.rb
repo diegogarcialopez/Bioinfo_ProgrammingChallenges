@@ -17,7 +17,7 @@ input = File.open(inputs[0], "r").each do |gene_id|                             
 end
 input.close
 
-output = File.open(inputs[1], mode: "w") # Writting the output file                           # Writing the header of the output file.
+output = File.open(inputs[1], mode: "w")                                                      # Writing the header of the output file.
 output << "Assignment 2\n\nNumber of recursivity steps: #{$max_depth}\n\nNetworks of input genes that interact with other input genes:\n\n-----------------------------------------------------------------------------------\n"
 output.close
 
