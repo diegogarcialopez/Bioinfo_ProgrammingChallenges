@@ -1,6 +1,6 @@
   require 'rest-client'
   require 'json'
-  require './Interactions.rb'                                                        
+  require './Networks.rb'                                                        
   
 inputs = ARGV
 $max_depth = inputs[2]
