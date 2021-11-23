@@ -11,7 +11,7 @@ The usage of this programs would be like this:
 
 ruby Main.rb "Input gene list file" "Output file" "steps of recursivity"
 
-Example:
+Example with 2 steps of recursivity:
 
 ruby Main.rb ArabidopsisSubNetwork_GeneList.txt Output.txt 2
 
