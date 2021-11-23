@@ -1,29 +1,33 @@
   require 'rest-client'
   require 'json'
-  require './Networks.rb'                                                        
+  require './Interactions.rb'                                                        
   
-input_file = ARGV
+inputs = ARGV
+$max_depth = inputs[2]
 $list_of_genes = []
-creating_list = File.open(input_file[0], "r").each do |gene_id|                                   # Creating a global varible containing all the input genes.
+creating_list = File.open(inputs[0], "r").each do |gene_id|                                   # Creating a global varible containing all the input genes.
     $list_of_genes << gene_id.strip.upcase
 end
 
-input = File.open(input_file[0], "r").each do |gene_id|                                           # Adding the input genes to @gene_id.
+input = File.open(inputs[0], "r").each do |gene_id|                                           # Adding the input genes to @gene_id.
   genes = InteractionNetwork.new(:gene_ID => gene_id.strip.upcase)
   puts "Currently working in the input gene: #{gene_id}"
   genes.search_interactions(genes.gene_ID, 1)
 end
 input.close
 
-output = File.open(input_file[1], mode: "w") # Writting the output file                           # Writing the header of the output file.
-output << "Assignment 2\nLists of input genes networks that interact with other input genes:\n"
+output = File.open(inputs[1], mode: "w") # Writting the output file                           # Writing the header of the output file.
+output << "Assignment 2\nNEtworkss of input genes that interact with other input genes:\n\n-----------------------------------------------------------------------------------\n"
 output.close
 
-add = File.open(input_file[1], "a")                                                               # Adding the networks to the output file.
+add = File.open(inputs[1], "a")                                                               # Adding the networks to the output file.
+i = 0
 InteractionNetwork.return_class.each do |network|
   if network.list_interactors.empty?
     next
   else
+    i = i + 1
+    add.puts "\nNetwork #{i}\n\n"
     add.puts "\nNetwork ID:" + " #{network.gene_ID}\n\n"
     add.puts "Interactor genes:\n"
     network.list_interactors.each do |interacting_genes|
@@ -48,5 +52,5 @@ InteractionNetwork.return_class.each do |network|
     add.puts "\n-----------------------------------------------------------------------------------"
   end
 end
-puts "The program finished successfully. The resulting networks are detailed in the file #{input_file[1]}"
+puts "The program finished successfully. The resulting networks are detailed in the file #{inputs[1]}"
 add.close
