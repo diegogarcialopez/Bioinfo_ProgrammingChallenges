@@ -1,0 +1,41 @@
+Assignment 2
+Lists of input genes networks that interact with other input genes:
+
+Network ID: AT1G07010
+
+Interactor genes:
+	AT4G17030
+GO Biological Process of the network:
+	GO:0019953 P:sexual reproduction
+KEGG Pathways of the network:
+	No Kegg ID (nor Kegg Pathways) associated with this network
+
+-----------------------------------------------------------------------------------
+
+Network ID: AT4G17030
+
+Interactor genes:
+	AT1G07010
+	AT1G17380
+GO Biological Process of the network:
+	GO:0046514 P:ceramide catabolic process
+	GO:0006952 P:defense response
+	GO:0031347 P:regulation of defense response
+	GO:2000022 P:regulation of jasmonic acid mediated signaling pathway
+	GO:0009753 P:response to jasmonic acid
+	GO:0009611 P:response to wounding
+KEGG Pathways of the network:
+	ath04075:Plant hormone signal transduction
+
+-----------------------------------------------------------------------------------
+
+Network ID: AT1G17380
+
+Interactor genes:
+	AT4G17030
+GO Biological Process of the network:
+	GO:0019953 P:sexual reproduction
+KEGG Pathways of the network:
+	No Kegg ID (nor Kegg Pathways) associated with this network
+
+-----------------------------------------------------------------------------------
