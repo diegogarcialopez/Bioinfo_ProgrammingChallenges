@@ -1,5 +1,7 @@
 ## Program description and usage
-This program searches for the CTTCTT repetition in the exons of a given genes in the input list.
+This program searches for the CTTCTT repetition in the exons of a given genes in the input list. Note that the program will search in all of the splicing variants of the exons, in order to make the user
+know if the a splicing variant containts the same amount of CTTCTT repetitions as the others.
+
 Afterwards, it outputs three different files: a file with the identifiers of the genes that do not contain the CTTCTT repetition, a gff3 file with the positions of this feature in the genes,
 and another gff3 file with the positions of this feature in the chromosomes.
 
