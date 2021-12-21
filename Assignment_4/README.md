@@ -11,7 +11,7 @@ Example:
 
 ruby Main.rb DNA_sequences.fa Protein_sequences.fa
 
-**With the example given, we found 1,750 possible orthologues between Arabidopsis thaliana and Schizosaccharomyces pombe**
+**With the example given, we found 1,750 possible orthologues between Arabidopsis thaliana and Schizosaccharomyces pombe.**
 
 Bibliography:
 
@@ -19,7 +19,7 @@ Moreno-Hagelsieb, G., & Latimer, K. (2008). Choosing BLAST options for better de
 
 Ward, N., & Moreno-Hagelsieb, G. (2014). Quickly finding orthologs as reciprocal best hits with BLAT, LAST, and UBLAST: how much do we miss?. PloS one, 9(7), e101850.
 
-In the above scientific articles, it is recommended to select an e-value <= 10e-6 and a coverage >= 50%
+In the above scientific articles, it is recommended to select an e-value <= 10e-6 and a coverage >= 50% when looking for orthologues.
 
 **To finally determine if the outputted genes are orthologues or not, we would have to check their function (e.g., their GO Ontologies), and confirm that they are the same or very similar.
 Moreover, we would also have to perform a phylogenetic study to determine whether the homology between genes is a the result of a speciation event and both genes are orthologues
