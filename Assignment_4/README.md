@@ -10,3 +10,5 @@ ruby Main.rb "input_sequence_file_1" "input_sequence_file_2"
 Example:
 
 ruby Main.rb DNA_sequences.fa Protein_sequences.fa
+
+With the example given, we found 1,750 posible orthologues between Arabidopsis thaliana and Schizosaccharomyces pombe
